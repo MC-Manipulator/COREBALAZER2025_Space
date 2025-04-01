@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24822597c334cd3ab5ea4059fae3555, type: 3}
+  m_Name: ResRefAudioClip
+  m_EditorClassIdentifier: 
+  Filters: []
+  ResRefs:
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Private_Hart_1_3.ogg
+    Data: {fileID: 8300000, guid: 00301701d7d537f41a17f1390c0ea4c7, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_2_6.ogg
+    Data: {fileID: 8300000, guid: 21c01fb86736223448cb9077eb45eb54, type: 3}
+  - Name: Assets/Resources/Music/BK/Black.mp3
+    Data: {fileID: 8300000, guid: 213aa83a9a9470447a3c754a8bf5cbd4, type: 3}
+  - Name: Assets/Resources/SFX/TestSFX.mp3
+    Data: {fileID: 8300000, guid: a2bbebc747dc2f34483fbde8456355b7, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Private_Hart_1_6.ogg
+    Data: {fileID: 8300000, guid: d21e299f526c7784c9af83233420a252, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Enemy_6_2.ogg
+    Data: {fileID: 8300000, guid: 03ec3991ff131564f8340428271505a5, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_2_8.ogg
+    Data: {fileID: 8300000, guid: 13dcea920d0f26b4099b343612128724, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Sergeant_Graves_2_4.ogg
+    Data: {fileID: 8300000, guid: 83bcbc514d032a84bb4958b6f4d64377, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Enemy_6_3.ogg
+    Data: {fileID: 8300000, guid: 26cae6b3546801d4c897e9ad8f598943, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Sounds/Background
+      Noise.ogg
+    Data: {fileID: 8300000, guid: 27040cb93870a034e8b5141eedcd7f44, type: 3}
+  - Name: Assets/Resources/Music/Sound/Black.mp3
+    Data: {fileID: 8300000, guid: 37faaaf4e09a3634391b0efdb296e248, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Shared Audio/click.ogg
+    Data: {fileID: 8300000, guid: 37cc5c4c34e880e4ea94f0daa8bb4aef, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_1_8.ogg
+    Data: {fileID: 8300000, guid: 67ece4a792c2f404181e690b6a04ac70, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Sergeant_Graves_2_2.ogg
+    Data: {fileID: 8300000, guid: 38ca6fecd5923f340995ec5e1c02fa2b, type: 3}
+  - Name: Assets/Resources/Music/TestBGM.mp3
+    Data: {fileID: 8300000, guid: b8efaad20399920469242e91b36824d4, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_1_7.ogg
+    Data: {fileID: 8300000, guid: a98579a811ebad34487c1a27f726481c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_2_7.ogg
+    Data: {fileID: 8300000, guid: 9aa8cc3e3875c244f87d982d0a872be0, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Private_Hart_1_2.ogg
+    Data: {fileID: 8300000, guid: ca918ddbb4ec11c4191fb020bf92e826, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Sergeant_Graves_2_5.ogg
+    Data: {fileID: 8300000, guid: 2be9436486d7fcd41b20e835a6e85c1b, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Sounds/Pulse Rifle.ogg
+    Data: {fileID: 8300000, guid: 2c4b4be36545b8241ba9ac14147378e6, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_1_4.ogg
+    Data: {fileID: 8300000, guid: 2df912fd3934a4c4a83fe8907b784737, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Sergeant_Graves_2_3.ogg
+    Data: {fileID: 8300000, guid: 4d1d637a5a198714592c2f6e5df7fc89, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Shared Audio/hover.ogg
+    Data: {fileID: 8300000, guid: cdebbd691d1e7c748955b62cef466831, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Enemy_6_1.ogg
+    Data: {fileID: 8300000, guid: 1e65e89e980c6584399b20abc9ba5e24, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Shared Audio/typewriter.ogg
+    Data: {fileID: 8300000, guid: 3f422aad134ac5542a4860dba28110f4, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Player_1_5.ogg
+    Data: {fileID: 8300000, guid: 3f94d7906b3801c4394415a2be4657c0, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Private_Hart_1_1.ogg
+    Data: {fileID: 8300000, guid: bf8bf2dc1326c3146a055cab973090fe, type: 3}

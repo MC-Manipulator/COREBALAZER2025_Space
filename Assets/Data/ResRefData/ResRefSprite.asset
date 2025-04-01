@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc718a00db0dba49b01189d33c94ddc, type: 3}
+  m_Name: ResRefSprite
+  m_EditorClassIdentifier: 
+  Filters: []
+  ResRefs:
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_normal.png
+    Data: {fileID: 21300000, guid: 2048119537defaa45a5f7ef29ff78275, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png
+    Data: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers.png
+    Data: {fileID: 21300000, guid: 3094096a150921c409ef35579f2ada0f, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers.png
+    Data: {fileID: 21300000, guid: 40e23f4f2fddc724db517c63f4d8990d, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette@4x.png
+    Data: {fileID: 21300000, guid: 401e910567b72dd4abf58be9f7e0518b, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt.png
+    Data: {fileID: 21300000, guid: 5087a7e3667fc9b4386891b7419cd4b2, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
+      - Flat.psd
+    Data: {fileID: 21300000, guid: 6032fec9cfb93ec479cebc2a3190fa71, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconretainedoverlay@2x.png
+    Data: {fileID: 21300000, guid: a01087ce1455c7e4c8f2410c26afcfd2, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@2x.png
+    Data: {fileID: 21300000, guid: c06100d8ae6a60d44ab25f318a154ce3, type: 3}
+  - Name: Assets/Resources/Picture/MTL_SKILL3.png
+    Data: {fileID: 21300000, guid: c0268969b65b1c940bedda90a68e72af, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_hover.png
+    Data: {fileID: 21300000, guid: 115ec3b4ca6d7914b9e88be17ab2631b, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+    Data: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.RotateACW@2x.png
+    Data: {fileID: 21300000, guid: 51b8cbcbf34a36243a954f42c5d344fc, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+    Data: {fileID: -5177388603050735206, guid: 71ebafeef3c03457483266a33ab2b270, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.DefaultBrush@2x.png
+    Data: {fileID: 21300000, guid: 9182e08d6d8be424a98050562de5b053, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.TilePalette.png
+    Data: {fileID: 21300000, guid: a16432554ffe69042985d012d1df2637, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png
+    Data: {fileID: 21300000, guid: a1bd3db90f5f7314e822ba2e38f901c6, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover.png
+    Data: {fileID: 21300000, guid: c130b41d1f572a14793b146add3d6e3f, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/Button_3x1.png
+    Data: {fileID: 2877471580529523173, guid: c15ba1dcb835b28498cc6239dc893a2e, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@4x.png
+    Data: {fileID: 21300000, guid: f1d766c90aeb37d4fb8c7d1ed3ba1378, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipY.png
+    Data: {fileID: 21300000, guid: 0219184e13f92e94896b4df6846db652, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush.png
+    Data: {fileID: 21300000, guid: 12e04f72413abf04fb4a5f79e70822ff, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_normal.png
+    Data: {fileID: 21300000, guid: 12bc9c02daa84f14b980f881d2bf864b, type: 3}
+  - Name: Assets/Outdoor/Free Flat Upload 2 Icon.png
+    Data: {fileID: 21300000, guid: 32470e63ac760db45be13acb9e1944ea, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.RotateCW@2x.png
+    Data: {fileID: 21300000, guid: 3239e705bdc364b47a21e44901809b91, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt_pressed.png
+    Data: {fileID: 21300000, guid: 3259cc77a00ca1c429b3638015f4645d, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@2x.png
+    Data: {fileID: 21300000, guid: 42fb19d14e266e4409770bbcdbc6a1e5, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Button
+      - Trimmed.psd
+    Data: {fileID: 21300000, guid: 522f0b9508ec7c54aaf42647ef91b918, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_hover.png
+    Data: {fileID: 21300000, guid: 62f38850a65bd37478f6d3db223d2bcb, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateACW@2x.png
+    Data: {fileID: 21300000, guid: 72124a67bbace794fa38534a24d23cee, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.EditPalette@4x.png
+    Data: {fileID: 21300000, guid: 72a3c6132d5e2ae48a1df56cfebbc7c2, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButtonHeld.png
+    Data: {fileID: 21300000, guid: 8250ba99aa6d5ad4f837a7bea00ad3a5, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers@4x.png
+    Data: {fileID: 21300000, guid: 82f78c36add1c2c4795c911a7abfb93e, type: 3}
+  - Name: Assets/Resources/Picture/Test_W.png
+    Data: {fileID: 21300000, guid: 824e9180cd6a61e41963af3ec356a4d1, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/transparent.png
+    Data: {fileID: 21300000, guid: 925987cee7ceb6944bc905eb0e753585, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette@4x.png
+    Data: {fileID: 21300000, guid: 920ecfdb532776b4cb32b37e5bd9e6ff, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@2x.png
+    Data: {fileID: 21300000, guid: 929e44994130ee644ac47965b289aec4, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.RotateCW.png
+    Data: {fileID: 21300000, guid: e25f34c849d45714e86b14d3afbb763e, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings@2x.png
+    Data: {fileID: 21300000, guid: 03d93c388f90a6248983677a29c72b38, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.EditPalette@2x.png
+    Data: {fileID: 21300000, guid: 13c8bd32c985e204eafd19f6360119db, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipX.png
+    Data: {fileID: 21300000, guid: 238833eb2176e7d429d5020dc9232155, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
+      - Check Mark.psd
+    Data: {fileID: 21300000, guid: 23dc4f9bfdcb0984995e1a58909e85d2, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/SMS/SMS
+      Bubble.png
+    Data: {fileID: 21300000, guid: 33d6870a7a177a843aa49fd3b7a6c7ad, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap.png
+    Data: {fileID: 21300000, guid: 534112f711642464e8a5b9b5ea20e941, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.DefaultBrush.png
+    Data: {fileID: 21300000, guid: 53439e5dcebe4d74e8358cf7104c4666, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateACW.png
+    Data: {fileID: 21300000, guid: 53da314bfe3845741ad14976e09ee6cf, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowGrid.png
+    Data: {fileID: 21300000, guid: 63154732be07c2242a369890e0f80a72, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@4x.png
+    Data: {fileID: 21300000, guid: 7360ac83b6bff7149836a436a4920d53, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Panel
+      Background.png
+    Data: {fileID: 21300000, guid: 738a30cc0b59b154b81d0dd9a11423ba, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Dialog_stripes.png
+    Data: {fileID: 21300000, guid: 8308d051e8be0b947bea843adc79c6d1, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipY@2x.png
+    Data: {fileID: 21300000, guid: a3c4ea29a117e3f418ded11a50e4d52d, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/Continue
+      Triangle Down.png
+    Data: {fileID: 21300000, guid: b3211798ba9323e49a18e1dc5cd40fae, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowGrid@4x.png
+    Data: {fileID: 21300000, guid: b375422385f769844a35ff7743e8f1bb, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowTilePalette@2x.png
+    Data: {fileID: 21300000, guid: b3f6a0922e3511840813c51882c0907b, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconretainedoverlay@2x.png
+    Data: {fileID: 21300000, guid: c34cd61ed96ff9a40a54e159467c5155, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers@2x.png
+    Data: {fileID: 21300000, guid: d3b2641fbdbb1f340ad9732102db591e, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke
+      Button Sprite.png
+    Data: {fileID: 21300000, guid: d3beb7074a81c964b8aeaa539ea63ab3, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target.png
+    Data: {fileID: 21300000, guid: 04e6c3cc740a491458073f2f715066f6, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png
+    Data: {fileID: 3625043607559282579, guid: 045b15ec09bba42448d89db77fa6f20a, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.GridPaint@2x.png
+    Data: {fileID: 21300000, guid: 3451731abc835d44993075b3bc0935bd, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Circle/Circle
+      Timer Full.png
+    Data: {fileID: 21300000, guid: 34c69e9a19a994b4c96aad3920938c3a, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CapsuleWithBorder.png
+    Data: {fileID: -9095717837082945937, guid: 34587324d412940a79d530020c957dc0, type: 3}
+  - Name: Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png
+    Data: {fileID: 21300000, guid: 44a054df1702e39458b7072b08d0f212, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette.png
+    Data: {fileID: 21300000, guid: 84cd96391d8e912479adff56b3500191, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers@2x.png
+    Data: {fileID: 21300000, guid: b43651fb085b38445ade3f9de3ab0636, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusGrid.png
+    Data: {fileID: 21300000, guid: b46d3a07716bc8b4296166d5ac10e492, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_pressed.png
+    Data: {fileID: 21300000, guid: c4a8ecd265138824cb5ddce16cf07bf4, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateCW@2x.png
+    Data: {fileID: 21300000, guid: e41a6ab3ac7354642a9006c03183e95e, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowGrid@2x.png
+    Data: {fileID: 21300000, guid: 4576408ff459c3a48a69ad3c7d941581, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/VN/JRPG
+      1 Panel Sprite.png
+    Data: {fileID: 21300000, guid: 55c2ba421d9a0854d9fb61f3b7fa3f4a, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlock@2x.png
+    Data: {fileID: 21300000, guid: 55747841a2e3b47dab36dc8d5e0dc4df, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Triangle.png
+    Data: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
+      - Selection.psd
+    Data: {fileID: 21300000, guid: 754be300c958e2a4d85b275305904feb, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover@2x.png
+    Data: {fileID: 21300000, guid: 857187d2d610c234587c8a50803e4307, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowTilePalette.png
+    Data: {fileID: 21300000, guid: 95b2d1ff151dd2f479bf1f6321b44179, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Window
+      Background.png
+    Data: {fileID: 21300000, guid: a550b21819b5b564291269f3ba072ef5, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_pressed.png
+    Data: {fileID: 21300000, guid: a558e8c32dbc5bc409d1b7aae6638ff0, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@4x.png
+    Data: {fileID: 21300000, guid: c54623997d885f6499655af6031a3bf9, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png
+    Data: {fileID: 2747690628134850419, guid: 16037dbd798344f57a526d53d48f5ead, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.GridPaint.png
+    Data: {fileID: 21300000, guid: 26f3d342b8e95b24da7ec4638d7f2322, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.FlipX@2x.png
+    Data: {fileID: 21300000, guid: 367a9e3649215be42869f99bdeecbab6, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
+      - Window.psd
+    Data: {fileID: 21300000, guid: 56f0487aa75c16442b6a6997355c3bda, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/shaded_butt.png
+    Data: {fileID: 21300000, guid: 5652c3ffb9a08b445bc476c5476bc44f, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateCW.png
+    Data: {fileID: 21300000, guid: 66bb00887f3170c4a95b989d392049ec, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.TilePalette@4x.png
+    Data: {fileID: 21300000, guid: 86408806ba4819c4494d51cb88d34da4, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.Target@4x.png
+    Data: {fileID: 21300000, guid: 86f74056ad052aa4b83fe485546f0521, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF
+      Title.psd
+    Data: {fileID: 21300000, guid: 966be606197166640a108ef53355eddf, type: 3}
+  - Name: Assets/Outdoor/713312204.png
+    Data: {fileID: 21300000, guid: a6c16c52331fbae42a675736e5c0c96b, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette.png
+    Data: {fileID: 21300000, guid: a605ef4315d43d6438e211f589d2df38, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png
+    Data: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/Window.png
+    Data: {fileID: 21300000, guid: d6e9ff215226845468a86021fa3f7901, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Circle/Circle
+      Button.png
+    Data: {fileID: 21300000, guid: f61c7c83e8568ae40874cb15b727ea65, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@4x.png
+    Data: {fileID: 21300000, guid: 070c631c5a8d05e41baf0a64b742067d, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_hover.png
+    Data: {fileID: 21300000, guid: 1756a89c663594f4db8dc3b4eaf61fc6, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Circle/Circle
+      Subtitle.png
+    Data: {fileID: 21300000, guid: 37370ca50f103424b98753375edcc3d9, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ButtonHighlighted.png
+    Data: {fileID: 21300000, guid: 37571a305d72da44da36b2f08f9d8e69, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButtonHighlighted.png
+    Data: {fileID: 21300000, guid: 37df733a277b8aa478484d53e57209e8, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings@2x.png
+    Data: {fileID: 21300000, guid: 47500a6fba22d6849a3f9335aa198ba5, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@2x.png
+    Data: {fileID: 21300000, guid: 479801e1f49ea2d4baf2b4c12f674bcb, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn_pressed_splice.png
+    Data: {fileID: 21300000, guid: 57b22252e8953e341a3b4b6135a85c0d, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@4x.png
+    Data: {fileID: 21300000, guid: 77be2b195bdd3a849b554d6dd09badb0, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png
+    Data: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Bubble/Bubble.png
+    Data: {fileID: 21300000, guid: b7f09c3867e11ae4cb69aeb93463acd6, type: 3}
+  - Name: Assets/Outdoor/Free Flat Battery Smooth 5 Icon.png
+    Data: {fileID: 21300000, guid: b771595c0a968c94b86e1c20596ab010, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@4x.png
+    Data: {fileID: 21300000, guid: c7d31ce121f6d6841b01dbcf3d909854, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/header_splice.png
+    Data: {fileID: 21300000, guid: d7ba33f6180e243448f102d3a55d22fb, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers@2x.png
+    Data: {fileID: 21300000, guid: f708c0da8a2b5fc4381f7f8d4a322a0a, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlock.png
+    Data: {fileID: 21300000, guid: f7adc828ed70a485db62c459bdf09525, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid.png
+    Data: {fileID: 21300000, guid: 0838dba95105e7148a96012c2778a2d5, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.RotateACW.png
+    Data: {fileID: 21300000, guid: 28df830b98d0a3f44b58e73d78060ab0, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.EditPalette.png
+    Data: {fileID: 21300000, guid: 4858e04232af5e340922812cd3697086, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
+    Data: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF
+      Window.psd
+    Data: {fileID: 21300000, guid: 6858abb4516aae344881bf286b3aac33, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png
+    Data: {fileID: -5177388603050735206, guid: 8884154dfe85442a3a3578be807dbcdf, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+    Data: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke
+      Panel Sprite.png
+    Data: {fileID: 21300000, guid: d84c891b96aa96f4aab42c18cd7e2d09, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette@2x.png
+    Data: {fileID: 21300000, guid: d88e25b75a7927f4683afb6c74b05a08, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.FlipX.png
+    Data: {fileID: 21300000, guid: e883969672bd261498f38ec9e9fc393f, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.TilePalette@2x.png
+    Data: {fileID: 21300000, guid: f8e23945cefaa614da36fe203225170a, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@2x.png
+    Data: {fileID: 21300000, guid: f8e27d22a910edd4e9b6791a887aa9e1, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/WindowBackground.png
+    Data: {fileID: 21300000, guid: f834413531a709c4f9a4714b418dc7fc, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.Target@2x.png
+    Data: {fileID: 21300000, guid: f8eef1ebd82d467428620ec2c02bc50a, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint.png
+    Data: {fileID: 21300000, guid: 1915f55bbb9484044b7829d1df0b4abf, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png
+    Data: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Scroll
+      Bar.png
+    Data: {fileID: 21300000, guid: 2974a63dca34fad46b5178afe0bae5c1, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_pressed.png
+    Data: {fileID: 21300000, guid: 39c889fd482558543a3040de05a300f7, type: 3}
+  - Name: Packages/com.unity.analytics/DataPrivacy/DataPrivacyIcon.png
+    Data: {fileID: 21300000, guid: 599a5fd92bab81a4ab02e52d0b1b1c60, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone.png
+    Data: {fileID: 21300000, guid: 592cc37b962a5604599e514ecc35f4b2, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_hover.png
+    Data: {fileID: 21300000, guid: 690f7358743df3f4595ba0342dd86e8e, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers.png
+    Data: {fileID: 21300000, guid: 99c3717808acc0f43b394ab3e10da8bb, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-TopWithBorder.png
+    Data: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusTilemap.png
+    Data: {fileID: 21300000, guid: a9a5b304877d58a47859e53d2b2d9fe3, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings@4x.png
+    Data: {fileID: 21300000, guid: d9f2d0aff557fba4cb316f849b0ccdd1, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/SMS/SMS
+      Bubble Flipped.png
+    Data: {fileID: 21300000, guid: 0acb8ceeef876a74aab8325fe84c13d6, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.FlipY.png
+    Data: {fileID: 21300000, guid: 2a807ac042c28e546b9d90048ebbc33f, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png
+    Data: {fileID: -2413806693520163455, guid: 4adeaf2d2b1c7417e89f026626d8264f, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonPointedTop.png
+    Data: {fileID: -2135585597343286014, guid: 5aa8b770bc43046bc8d993d0d5b7f4a5, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Circle/Circle
+      Timer Empty.png
+    Data: {fileID: 21300000, guid: 6a892084edab6174cb73862ab069cca2, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings.png
+    Data: {fileID: 21300000, guid: 7a17912541de348408b722a40b972ea3, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Circle/Circle
+      Portrait.png
+    Data: {fileID: 21300000, guid: 7ae9d2c635ae1274091b08b9b24d09cb, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBar.png
+    Data: {fileID: 21300000, guid: 8ae6b3bd2771d7140b1ba50d68a41d21, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF
+      Button.psd
+    Data: {fileID: 21300000, guid: 9a32a6cc2cb803443983d45d4a513506, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlock@2x.png
+    Data: {fileID: 21300000, guid: ba96945b6a1b743579931a87e98041fe, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.FlipY@2x.png
+    Data: {fileID: 21300000, guid: baab1bab0820d0942bb79c6da94b1688, type: 3}
+  - Name: Assets/Resources/Picture/MTL_SKILL2.png
+    Data: {fileID: 21300000, guid: bafbce9abecb79c4caa44438c394b0c0, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/dialogue_system_ring.png
+    Data: {fileID: 21300000, guid: ba6d721237ede92468b28e6b3e5f4933, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Dialog_light.png
+    Data: {fileID: 21300000, guid: ea98217a9c10ced489bf5263b0a127e0, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn_normal_splice.png
+    Data: {fileID: 21300000, guid: eae9010da23b6034e9f7b9d1fa5beae8, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_pressed.png
+    Data: {fileID: 21300000, guid: 0bb8c8bd5e2dd7d4e9478eff46948a8b, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_normal.png
+    Data: {fileID: 21300000, guid: 2b853cc63a87e894e81e0d761413c279, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Button.png
+    Data: {fileID: 21300000, guid: 2ba68fa8bf3994644b5d96d137d32974, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers@2x.png
+    Data: {fileID: 21300000, guid: 2b9bf8ec5d54fe249ac9e20979ccd42c, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-TopWithBorder.png
+    Data: {fileID: -2135585597343286014, guid: 4b2a04fdbe0ef4d8da8f90eaca817cd1, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette.png
+    Data: {fileID: 21300000, guid: 4b6b0d10629b2ea40846b0eed5b74f43, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@2x.png
+    Data: {fileID: 21300000, guid: 6b80cdd1d5ce20c4189553f129f4d175, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/ScrollBar.png
+    Data: {fileID: 21300000, guid: 8bd8fed5f979807439a894d9ec3bfa6e, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_hover.png
+    Data: {fileID: 21300000, guid: 9bbfcad9b65ee094f9e5d231489d8981, type: 3}
+  - Name: Assets/Outdoor/Free Flat Battery No Icon.png
+    Data: {fileID: 21300000, guid: ab36411344ffd9b4b91aa26e5baf3322, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers.png
+    Data: {fileID: 21300000, guid: abbc28ff73b72b1438f893d41ca52fb0, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png
+    Data: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowGrid@2x.png
+    Data: {fileID: 21300000, guid: db1e8fc8f15be484bb9f866640b84c04, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png
+    Data: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings.png
+    Data: {fileID: 21300000, guid: 1cea3c0d30c40344881603d28240cfd3, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Dialog_stripes_selected.png
+    Data: {fileID: 21300000, guid: 4cd6a9f94ecaca54e857c8da5a42cf6c, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusGrid@2x.png
+    Data: {fileID: 21300000, guid: 6c05763976bcac64ebefb1f097e6ef84, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.DefaultBrush@4x.png
+    Data: {fileID: 21300000, guid: 6ccf4234805f2d049a6869c33213ff65, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette@2x.png
+    Data: {fileID: 21300000, guid: 8cbab190b527bd44e8bf5afbc79095e8, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette@4x.png
+    Data: {fileID: 21300000, guid: 9c4b584fdcc16e84391e2a1f5235a9d3, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.TargetHover@4x.png
+    Data: {fileID: 21300000, guid: 9cdb1d83bdac1554287041973d268c1d, type: 3}
+  - Name: Assets/Resources/Picture/Test_YNS.png
+    Data: {fileID: 21300000, guid: ac7890a7ef5e62f469d33eea581bdf19, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png
+    Data: {fileID: -5177388603050735206, guid: cc35afd292fc349128b36a291fb3a165, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamondWithBorder.png
+    Data: {fileID: 3625043607559282579, guid: 0d267bc78a0864eb48358689b29ed20a, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusTilemap@2x.png
+    Data: {fileID: 21300000, guid: 1d8efe8a75b351d4d9aa8b28ddf93196, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowGrid@4x.png
+    Data: {fileID: 21300000, guid: 2d35623559ffd044682af7e09affdcc8, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_hover.png
+    Data: {fileID: 21300000, guid: 2d95a86b460252f4485e6ea32de747c0, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowTilePalette@4x.png
+    Data: {fileID: 21300000, guid: 2d8829bed74ac1940856f77a49d02bfb, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/border_splice.png
+    Data: {fileID: 21300000, guid: 3d3b4b1d32565c944b0452176b513899, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
+      - Edges.psd
+    Data: {fileID: 21300000, guid: 4de85c90bbe61ed4bb3d67de9ab26f64, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette@2x.png
+    Data: {fileID: 21300000, guid: 5d83937eb3ca95047b4e0e43aac5e962, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone.png
+    Data: {fileID: 21300000, guid: 5dfb96fd1c7a1bf4f9f606597de935cf, type: 3}
+  - Name: Assets/Resources/Picture/Test_HDL.png
+    Data: {fileID: 21300000, guid: 6dd5c8bd5dcbd494d88f28c1a425a8a1, type: 3}
+  - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlock.png
+    Data: {fileID: 21300000, guid: 6d3f95684dd634b18aa9ab45b3e06cfd, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
+      - Inset.psd
+    Data: {fileID: 21300000, guid: 7d3a920c42c6a734fb25908d06ea4728, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowGrid.png
+    Data: {fileID: 21300000, guid: ad72aefbbd03ec744b3cf61cf766d320, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png
+    Data: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover@4x.png
+    Data: {fileID: 21300000, guid: dd81f55787e496249bb4111007562ef5, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusTilemap@4x.png
+    Data: {fileID: 21300000, guid: dd62c99bd1ab0984da092d3ea327b733, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_normal.png
+    Data: {fileID: 21300000, guid: dd04b2931b2d1114aab1360bfee69ea4, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.TargetHover.png
+    Data: {fileID: 21300000, guid: fdc8bace2b7ef504d91d22cca2a5d905, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_pressed.png
+    Data: {fileID: 21300000, guid: fd1b4e8ad597d9b45b14d313eced9cb1, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/WindowSprite.png
+    Data: {fileID: 21300000, guid: 0e3de6ba89fe6a242bfa146ef8ed525f, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.TargetHover@2x.png
+    Data: {fileID: 21300000, guid: 2e12ff2cc7983784eab0dfe0bb7ff17e, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.GridPaint@4x.png
+    Data: {fileID: 21300000, guid: 4e62fa74d1eac074cac268c2997a658c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_normal.png
+    Data: {fileID: 21300000, guid: 5e39d47e95de4d4489c51fdb5c19674c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButton.png
+    Data: {fileID: 21300000, guid: 7eb1f74ad1ec5994aa6ab6604c169cfe, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/shaded_butt_pressed.png
+    Data: {fileID: 21300000, guid: 7eabf328e5ad3944787e3543af874724, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBackground.png
+    Data: {fileID: 21300000, guid: 7e6dd32f861d2d843bc4acabdb2f6df4, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Slider
+      2.psd
+    Data: {fileID: 21300000, guid: be0cfa11f5f9f84468fd2e4261aec5d3, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers@4x.png
+    Data: {fileID: 21300000, guid: ce315ea6e6e86a740b10e02dda0d0e9c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/Test
+      Portrait Sprite.png
+    Data: {fileID: 21300000, guid: deeae33315027e045bf104c3f198179d, type: 3}
+  - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png
+    Data: {fileID: -2135585597343286014, guid: eed45a33cd08446c8b88325cf82fc52f, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/FrameSprite.png
+    Data: {fileID: 21300000, guid: 0f8644d3c71a5ce4ea81275a5ea0280c, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipX@2x.png
+    Data: {fileID: 21300000, guid: 1f26945e970839e41ba35badd04237ef, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn_hover_splice.png
+    Data: {fileID: 21300000, guid: 4f82e85a6dad7a4419b8c2a63f81739d, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/portrait.png
+    Data: {fileID: 21300000, guid: 8fbfa1bc77a0388499f83f32b410eea3, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
+      - Button.psd
+    Data: {fileID: 21300000, guid: 9f2cdc43fe2d20e42812c545cb67b99e, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_pressed.png
+    Data: {fileID: 21300000, guid: afe564cd16103044697441a95757b74d, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/WindowFrame.png
+    Data: {fileID: 21300000, guid: bf00944c2f6c305429bd5a28ab01b56a, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.Target.png
+    Data: {fileID: 21300000, guid: cf94b5ae9bca88f4a97ce96847235ba3, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_normal.png
+    Data: {fileID: 21300000, guid: cfe6b8c2bc51dd84d9c21cd4ff468e13, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@2x.png
+    Data: {fileID: 21300000, guid: efae8c209fe26f541b3d560f2034287d, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ButtonPressed.png
+    Data: {fileID: 21300000, guid: ef3f2a31b9a076f4aa72faf842faf425, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings@4x.png
+    Data: {fileID: 21300000, guid: ff827e3a021bd1b4493ddbcd90ed460f, type: 3}
+  - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusGrid@4x.png
+    Data: {fileID: 21300000, guid: ffc58b5d1d8a6ed489be30f7a1291b1e, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/ScrollButton_3x1.png
+    Data: {fileID: 21300000, guid: ff8f2c6bfc503d848820e5b3d494f4f3, type: 3}

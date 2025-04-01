@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ExcelRefData
+  m_EditorClassIdentifier: 
+  m_GroupName: ExcelRefData
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 723385ded9cc2ff4dbb0d42a65eecbe6
+  m_SerializeEntries:
+  - m_GUID: 463f028c35b7b934fb856de63e31c84e
+    m_Address: ExcelRefData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b960f5ccdf225ea4d996cc4047d41ff8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0577309b3b5c4aa46a5c4998d7f44a9b, type: 2}
+    - {fileID: 11400000, guid: 36077959527388f4592c99cd6a777bde, type: 2}

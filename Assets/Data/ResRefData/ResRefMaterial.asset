@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d361d4bfd42e68047954e6babc484738, type: 3}
+  m_Name: ResRefMaterial
+  m_EditorClassIdentifier: 
+  Filters: []
+  ResRefs:
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Fonts/BKANT.TTF
+    Data: {fileID: 2100000, guid: 80a0137e3d8f78f41bfdb2aca0cfac44, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/WallLamp-16
+      - Default.mat
+    Data: {fileID: 2100000, guid: 11fb2d248febdc846b81524c9ac75a5f, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/ceilTypeA_Diff.mat
+    Data: {fileID: 2100000, guid: 325cad0f311a3464ca2100385aab92c9, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Fonts/Orbitron/orbitron-black.otf
+    Data: {fileID: 2100000, guid: 62ee12dee9c858b4fbf2e65695e40080, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/wallTanker.mat
+    Data: {fileID: 2100000, guid: 822331cfd0cd1924d8b742e2afa46eb2, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroop.mat
+    Data: {fileID: 2100000, guid: 92cc50cb1813aea47b6096bec7d25a1a, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroopRed.mat
+    Data: {fileID: 2100000, guid: 03402bb0844a94e4f9ef09f124ae0c8a, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Fonts/Orbitron/orbitron-medium.otf
+    Data: {fileID: 2100000, guid: 038a74619252e3244a242e9bf976721c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/WallTypeA_FloorRaft_Diff.mat
+    Data: {fileID: 2100000, guid: 33b9bd8adf938ca43b5fc608c6c74e0a, type: 2}
+  - Name: Assets/Plugins/TextMesh Pro/Fonts/LiberationSans.ttf
+    Data: {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/InfiltratorPistol.mat
+    Data: {fileID: 2100000, guid: 359754cc85114274b96e79e18b55f692, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroopHelmetRed.mat
+    Data: {fileID: 2100000, guid: 95846deeca9c9e1439116cac67f8b61d, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/Head.mat
+    Data: {fileID: 2100000, guid: 67e66cd37fc0b794aa0a01c6e5d9a7cb, type: 2}
+  - Name: Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Drop Shadow.mat
+    Data: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  - Name: Assets/Resources/Font/xlszh.ttf
+    Data: {fileID: 2100000, guid: 989597275773d0b4093ca18e5aae6ddd, type: 3}
+  - Name: Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Outline.mat
+    Data: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Fonts/Orbitron/orbitron-bold.otf
+    Data: {fileID: 2100000, guid: f9eed32ec40f52745a3d3e3f770f5881, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/LargeDoorway.mat
+    Data: {fileID: 2100000, guid: 6a445ffbc6e735340a32da924c9881c2, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Fonts/Orbitron/orbitron-light.otf
+    Data: {fileID: 2100000, guid: 7a17397e79f3acf4a92bb838c0341340, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/WallDivider.mat
+    Data: {fileID: 2100000, guid: 7a27f547c4a7e434086a9186d53ce37d, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/TerminalDiffuseMap.mat
+    Data: {fileID: 2100000, guid: da530438de201db409b41164a5192f40, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/ReconTroopHelmet.mat
+    Data: {fileID: 2100000, guid: 2b14441d002ea3940a79460708b788f4, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Jupiter.ttf
+    Data: {fileID: 2100000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/Pipe_electricBox_ts_Diff.mat
+    Data: {fileID: 2100000, guid: 7cd67c6425f56844aaf7961878b363e8, type: 2}
+  - Name: Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+    Data: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Fonts/Bitwise
+      Font/bitwise.ttf
+    Data: {fileID: 2100000, guid: 5e9fd29b2ab3f8749945f6c3462cc0be, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Materials/AssaultGun.mat
+    Data: {fileID: 2100000, guid: 5eff153ada2024d40ace67fb4049f1b0, type: 2}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Materials/FloorAmaterial.mat
+    Data: {fileID: 2100000, guid: de5031a49559bb442adc46fd99ce8b69, type: 2}
+  - Name: Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+    Data: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

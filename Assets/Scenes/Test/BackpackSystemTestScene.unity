@@ -231,6 +231,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &166682738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 58528174659711429, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
+  m_PrefabInstance: {fileID: 1184323225232958221}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &195595290
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +271,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &195595292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,9 +688,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backpack: {fileID: 1057162255}
   content: {fileID: 790819757}
+  useButton: {fileID: 1099754683}
+  handButton: {fileID: 166682738}
   bigImage: {fileID: 285314802}
   detailName: {fileID: 450588568}
   detailDescription: {fileID: 1453774713}
+  selectedItem:
+    id: 0
+    image: {fileID: 0}
+    itemName: 
+    itemDescription: 
+  itemList: []
+  isHanding: 0
 --- !u!1 &790819757 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6662680071761273575, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
@@ -851,6 +865,11 @@ MonoBehaviour:
   itemName: Item1
   itemDescription: Item1 Description
   sprite: {fileID: 21300000, guid: bafbce9abecb79c4caa44438c394b0c0, type: 3}
+--- !u!1 &1099754683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2648836103606397394, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
+  m_PrefabInstance: {fileID: 1184323225232958221}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1289146994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,6 +1986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackpackPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2938918620989266472, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5126946845958330396, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2046,6 +2069,10 @@ PrefabInstance:
     - target: {fileID: 5126946845958330396, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122172368452500305, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
