@@ -68,7 +68,7 @@ public class ItemSystem
 
     public void EndRequiring()
     {
-        BackpackSystem.instance.OnHandItem -= OfferItem;
-        BackpackSystem.instance.OnCloseBackpack -= CancelOffering;
+        backpackPanel.OnOfferItem -= OfferItem;
+        backpackPanel.OnCloseBackpack -= CancelOffering;
     }
 }
