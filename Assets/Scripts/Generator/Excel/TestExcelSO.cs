@@ -8,17 +8,17 @@ using Sirenix.OdinInspector;
 using Test;
 namespace EggFramework.Generator
 {
-	public sealed class TextExcelSO : ScriptableObject , IExcelEntitySO
+	public sealed class TestExcelSO : ScriptableObject , IExcelEntitySO
 	{
 		#if UNITY_EDITOR
 		[Button("读取数据", ButtonSizes.Large), PropertyOrder(-1)]
 		private void ReadData()
 		{
-		    ExcelUtil.ReadDataByExcelEntityType(typeof(TextExcel));
+		    ExcelUtil.ReadDataByExcelEntityType(typeof(TestExcel));
 		}
 		#endif
 		[LabelText("数据库"), ListDrawerSettings(NumberOfItemsPerPage = 10)]
-		public List<TextExcel> RawDataList;
+		public List<TestExcel> RawDataList;
 
 	}
 }

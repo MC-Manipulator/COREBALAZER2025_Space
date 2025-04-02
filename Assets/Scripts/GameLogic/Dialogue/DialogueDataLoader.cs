@@ -5,6 +5,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using System.Reflection;
 using Test;
+using System.Linq;
 
 /// <summary>
 /// Excel模块和对话模块的桥接，负责将存储Excel数据的ScriptObject进一步转化为对话使用的SO数据
@@ -63,7 +64,17 @@ public class DialogueDataLoader : SerializedMonoBehaviour
 
         foreach(Test1 text in texts)
         {
-            dialogue.nodes.Add(new BasicDialogueNode(text.text, characterDic[text.m_name]));
+            NarrationCharacter narrationCharacter = characterDic[text.m_name];
+            Sprite illustration;
+            if (narrationCharacter.IllustrationOfCharacter.ContainsKey(text.Illustration))
+            {
+                illustration = narrationCharacter.IllustrationOfCharacter[text.Illustration];
+            }
+            else
+            {
+                illustration = narrationCharacter.IllustrationOfCharacter.First().Value;
+            }
+            dialogue.nodes.Add(new BasicDialogueNode(text.text, narrationCharacter, illustration));
         }
         // 设置你想要保存的路径
         // 注意：路径应该相对于Resources文件夹

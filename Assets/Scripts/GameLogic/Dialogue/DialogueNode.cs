@@ -10,6 +10,7 @@ using UnityEngine;
 public abstract class DialogueNode
 {
     public string m_text;
+    public Sprite m_sprite;
     [SerializeField] public NarrationCharacter speaker;
 
     public abstract void Accept(DialogueNodeVisitor visitor);

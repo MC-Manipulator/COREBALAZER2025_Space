@@ -10,14 +10,14 @@ using Test;
 namespace EggFramework.Generator
 {
 	[Serializable]
-	public sealed class TextExcel : IExcelEntity
+	public sealed class TestExcel : IExcelEntity
 	{
 		[LabelText("对话数据")]
-		public Test1 dialogueData;
+		public Test1 DialogueData;
 
-		public TextExcel Clone(){
-		    return new TextExcel{
-		      dialogueData = dialogueData,
+		public TestExcel Clone(){
+		    return new TestExcel{
+		      DialogueData = DialogueData,
 		     };
 		}
 	}

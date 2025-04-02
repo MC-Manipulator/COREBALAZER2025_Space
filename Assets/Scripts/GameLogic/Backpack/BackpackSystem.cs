@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,23 +8,23 @@ using UnityEngine.UI;
 
 namespace Test
 {
-    public class BackpackSystem : MonoBehaviour
+    public class BackpackSystem : SerializedMonoBehaviour
     {
         public static BackpackSystem instance;
         public GameObject backpack;
         public GameObject content;
         public GameObject useButton;
-        public GameObject  handButton;
+        public GameObject handButton;
         public Image bigImage;
         public TMP_Text detailName;
         public TMP_Text detailDescription;
 
-        public Item selectedItem;
+        public ItemSO selectedItem;
 
-        public List<Item> itemList = new List<Item>();
+        public Dictionary<ItemType,ItemSO> itemDic = new Dictionary<ItemType,ItemSO>();
 
-        public delegate void UseItemAction(int id);
-        public delegate void HandItemAction(int id);
+        public delegate void UseItemAction(ItemType id);
+        public delegate void HandItemAction(ItemType id);
         public event UseItemAction OnUseItem;
         public event HandItemAction OnHandItem;
         public event Action OnCloseBackpack;
@@ -75,51 +76,39 @@ namespace Test
             OnCloseBackpack?.Invoke();
         }
 
-        public void ShowItemDetail(Item item)
+        public void ShowItemDetail(ItemSO item)
         {
             bigImage.sprite = item.image;
-            detailName.text = item.itemName;
+            detailName.text = item.itemName.ToString();
             detailDescription.text = item.itemDescription;
         }
 
-        public void SelectItem(int id)
+        public void SelectItem(ItemType name)
         {
-            Item item = GetItemInBackpack(id);
+            ItemSO item = GetItemInBackpack(name);
             selectedItem = item;
             ShowItemDetail(item);
         }
 
         public void HandItem()
         {
-            OnHandItem?.Invoke(selectedItem.id);
+            OnHandItem?.Invoke(selectedItem.itemName);
         }
 
-        public void UseItem(int id)
+        public void UseItem(ItemType id)
         {
             OnUseItem?.Invoke(id);
         }
 
-        public void AddItem(Item item)
+        public void AddItem(ItemSO item)
         {
-            AddItem(item.id, item.itemName, item.itemDescription, item.image);
-        }
-
-        public void AddItem(int id, string name, string description, Sprite sprite)
-        {
-            Item item = new Item();
-
-            if (GetItemInBackpack(id) != null)
+            if (GetItemInBackpack(item.itemName) != null)
             {
-                Debug.Log("Already has item under id:" + id);
+                Debug.Log("Already has item under id:" + item.name);
                 return;
             }
 
-            itemList.Add(item);
-
-            item.id = id;
-            item.itemName = name;
-            item.itemDescription = description;
-            item.image = sprite;
+            itemDic.Add(item.itemName,item);
 
             GameObject itemButton = new GameObject();
 
@@ -133,14 +122,13 @@ namespace Test
 
             itemButton.GetComponent<Button>().targetGraphic = itemButton.GetComponent<Image>();
             itemButton.GetComponent<Button>().onClick.AddListener(buttonScript.SelectItem);
-            itemButton.GetComponent<Image>().sprite = sprite;
-            buttonScript.id = id;
+            itemButton.GetComponent<Image>().sprite = item.image;
+            buttonScript.id = item.itemName;
         }
 
-        public void RemoveItem(int id)
+        public void RemoveItem(ItemType id)
         {
-            Item item = GetItemInBackpack(id);
-            itemList.Remove(item);
+            itemDic.Remove(id);
 
             ItemButton[] buttonList = content.transform.GetComponentsInChildren<ItemButton>(true);
             foreach (ItemButton ib in buttonList)
@@ -155,26 +143,20 @@ namespace Test
             return;
         }
 
-        public Item GetItemInBackpack(int id)
+        public ItemSO GetItemInBackpack(ItemType name)
         {
-            foreach (Item item in itemList)
-            {
-                if (item.id == id)
-                {
-                    return item;
-                }
-            }
+            if(itemDic.ContainsKey(name)) return itemDic[name];
 
             return null;
         }
 
         public void OnSave()
         {
-            int[] itemIDList = new int[itemList.Count];
+            int[] itemIDList = new int[itemDic.Count];
             int it = 0;
-            foreach (Item i in itemList)
+            foreach (ItemSO i in itemDic.Values)
             {
-                itemIDList[it++] = i.id;
+                itemIDList[it++] = (int)i.itemName;
             }
             ES3.Save("Backpack", itemIDList);
         }
@@ -185,13 +167,13 @@ namespace Test
             {
                 Destroy(child.gameObject);
             }
-
-            this.itemList = new List<Item>();
+            ItemType[] itemTypes = (ItemType[])System.Enum.GetValues(typeof(ItemType));
+            this.itemDic = new Dictionary<ItemType, ItemSO>();
 
             int[] itemIDList = ES3.Load("Backpack", new int[0]);
             foreach (int i in itemIDList)
             {
-                ItemSystem.Instance.AddItemToBackpack(i);
+                ItemSystem.Instance.AddItemToBackpack(itemTypes[i]);
             }
         }
     }

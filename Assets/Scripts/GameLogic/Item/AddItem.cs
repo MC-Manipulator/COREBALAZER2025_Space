@@ -6,14 +6,12 @@ namespace Test
 {
     public class AddItem : MonoBehaviour
     {
-        public int id = 0;
-        public string itemName;
-        public string itemDescription;
-        public Sprite sprite;
+        public ItemSO item;
 
         public void AddItemToBackpack()
         {
-            BackpackSystem.instance.AddItem(id, itemName, itemDescription, sprite);
+            //BackpackSystem.instance.AddItem(item);
+            BackpackMgr.GetInstance().AddItem(item);
         }
     }
 }

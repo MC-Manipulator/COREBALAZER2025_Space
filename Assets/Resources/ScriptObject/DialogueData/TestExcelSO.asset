@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9a0a2e77cfed8f46a86e5d93578a98c, type: 3}
-  m_Name: TextExcelSO
+  m_Name: TestExcelSO
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
+    - {fileID: 21300000, guid: b6090fdab4080e64686014f74380d213, type: 3}
     - {fileID: 11400000, guid: b230744468b20ab40b82d6e0b0eb0272, type: 2}
+    - {fileID: 21300000, guid: be755fc93300c6e40846595e8ba4ad88, type: 3}
     - {fileID: 11400000, guid: 9cefd2c71de2d774d8974bfc874c03e4, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -36,9 +38,12 @@ MonoBehaviour:
     - Name: m_text
       Entry: 1
       Data: I love you so
-    - Name: speaker
+    - Name: m_sprite
       Entry: 10
       Data: 0
+    - Name: speaker
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -48,9 +53,12 @@ MonoBehaviour:
     - Name: m_text
       Entry: 1
       Data: Please let me go
+    - Name: m_sprite
+      Entry: 10
+      Data: 2
     - Name: speaker
       Entry: 10
-      Data: 1
+      Data: 3
     - Name: 
       Entry: 8
       Data: 
@@ -60,9 +68,12 @@ MonoBehaviour:
     - Name: m_text
       Entry: 1
       Data: But I love you so
-    - Name: speaker
+    - Name: m_sprite
       Entry: 10
       Data: 0
+    - Name: speaker
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 

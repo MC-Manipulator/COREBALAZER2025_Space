@@ -8,10 +8,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Scriptable Objects/Narration/Dialogue/Node/Basic")]
 public class BasicDialogueNode : DialogueNode
 {
-    public BasicDialogueNode(string _text, NarrationCharacter _speaker)
+    public BasicDialogueNode(string _text, NarrationCharacter _speaker,Sprite _sprite)
     {
         m_text = _text;
         speaker = _speaker;
+        m_sprite = _sprite;
     }
 
     public override void Accept(DialogueNodeVisitor visitor)

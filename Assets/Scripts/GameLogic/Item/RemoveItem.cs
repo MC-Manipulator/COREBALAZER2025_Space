@@ -6,11 +6,12 @@ namespace Test
 {
     public class RemoveItem : MonoBehaviour
     {
-        public int id = 0;
+        public ItemType id;
 
         public void RemoveItemToBackpack()
         {
-            BackpackSystem.instance.RemoveItem(id);
+            //BackpackSystem.instance.RemoveItem(id);
+            BackpackMgr.GetInstance().RemoveItem(id);
         }
     }
 

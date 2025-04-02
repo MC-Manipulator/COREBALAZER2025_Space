@@ -463,7 +463,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   listeners:
-  - {fileID: 11400000, guid: ab7661a0acf2b2b4894a2542c552b088, type: 2}
+  - {fileID: 11400000, guid: 2805d69f74bf3a64fb1d19a613addc5f, type: 2}
 --- !u!4 &923798366
 Transform:
   m_ObjectHideFlags: 0
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 019bcc680c1437449a29ed14e9e41473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialogue: {fileID: 11400000, guid: f7159bbba302b3444b8b5371ac522b70, type: 2}
+  Dialogue: {fileID: 11400000, guid: 496cdfe811c31f14cab7a05213e3be86, type: 2}
 --- !u!1 &1353442907
 GameObject:
   m_ObjectHideFlags: 0
