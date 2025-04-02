@@ -12,7 +12,7 @@ public class DialoguePanel : MonoBehaviour, DialogueNodeVisitor
 {
     public TextMeshProUGUI m_text;
     public TextMeshProUGUI nameOfCharacter;
-    public Image imageOfCharacter;
+    public Image illustration;
     public float charDelay;
     private bool isPrinting = false;
     private Tweener textTween;
@@ -32,6 +32,7 @@ public class DialoguePanel : MonoBehaviour, DialogueNodeVisitor
     {
         m_text.text = "";
         isPrinting = true;
+        illustration.sprite = node.m_sprite;
         textTween = m_text.DOText(node.m_text, charDelay * node.m_text.Length)
         .OnComplete(() => {
          isPrinting = false;

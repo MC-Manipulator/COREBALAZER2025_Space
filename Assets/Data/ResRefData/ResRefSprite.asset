@@ -49,8 +49,12 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: a16432554ffe69042985d012d1df2637, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png
     Data: {fileID: 21300000, guid: a1bd3db90f5f7314e822ba2e38f901c6, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u6709\u6B66\u5668/Avg_avg_1038_whitw2_1-6$2.png"
+    Data: {fileID: 21300000, guid: b10c4d22fe7f9194191e5c2a8147d6a9, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover.png
     Data: {fileID: 21300000, guid: c130b41d1f572a14793b146add3d6e3f, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u6709\u6B66\u5668/Avg_avg_1038_whitw2_1-8$2.png"
+    Data: {fileID: 21300000, guid: c1a0c8bea2c21df478deaf745fcd6c86, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/Button_3x1.png
     Data: {fileID: 2877471580529523173, guid: c15ba1dcb835b28498cc6239dc893a2e, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@4x.png
@@ -170,6 +174,8 @@ MonoBehaviour:
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
       - Selection.psd
     Data: {fileID: 21300000, guid: 754be300c958e2a4d85b275305904feb, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u65E0\u6B66\u5668/Avg_avg_1038_whitw2_1-7$1.png"
+    Data: {fileID: 21300000, guid: 75df905825c13e646abc7a00683f5205, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover@2x.png
     Data: {fileID: 21300000, guid: 857187d2d610c234587c8a50803e4307, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowTilePalette.png
@@ -181,6 +187,8 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: a558e8c32dbc5bc409d1b7aae6638ff0, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@4x.png
     Data: {fileID: 21300000, guid: c54623997d885f6499655af6031a3bf9, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u65E0\u6B66\u5668/Avg_avg_1038_whitw2_1-9$1.png"
+    Data: {fileID: 21300000, guid: f5bcbb48b74a9544e987ffbea11daf7d, type: 3}
   - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png
     Data: {fileID: 2747690628134850419, guid: 16037dbd798344f57a526d53d48f5ead, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.GridPaint.png
@@ -207,6 +215,8 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: a605ef4315d43d6438e211f589d2df38, type: 3}
   - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png
     Data: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u65E0\u6B66\u5668/Avg_avg_1038_whitw2_1-4$1.png"
+    Data: {fileID: 21300000, guid: b6090fdab4080e64686014f74380d213, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/Window.png
     Data: {fileID: 21300000, guid: d6e9ff215226845468a86021fa3f7901, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Circle/Circle
@@ -216,6 +226,8 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: 070c631c5a8d05e41baf0a64b742067d, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_hover.png
     Data: {fileID: 21300000, guid: 1756a89c663594f4db8dc3b4eaf61fc6, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u6709\u6B66\u5668/\u4E25\u8083\u52A0\u7591\u60D1\u5C0F\u767D\u72FC.png"
+    Data: {fileID: 21300000, guid: 279a3e46dddeed241a43842e4437ad84, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Circle/Circle
       Subtitle.png
     Data: {fileID: 21300000, guid: 37370ca50f103424b98753375edcc3d9, type: 3}
@@ -225,6 +237,8 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: 37df733a277b8aa478484d53e57209e8, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings@2x.png
     Data: {fileID: 21300000, guid: 47500a6fba22d6849a3f9335aa198ba5, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u6709\u6B66\u5668/\u8BA4\u771F\u8BF4\u8BDD\u7684\u5C0F\u767D\u72FC.png"
+    Data: {fileID: 21300000, guid: 477469489ccdbbd44961565564aecb88, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@2x.png
     Data: {fileID: 21300000, guid: 479801e1f49ea2d4baf2b4c12f674bcb, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn_pressed_splice.png
@@ -284,10 +298,14 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: 2974a63dca34fad46b5178afe0bae5c1, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_pressed.png
     Data: {fileID: 21300000, guid: 39c889fd482558543a3040de05a300f7, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u6709\u6B66\u5668/\u81EA\u4FE1\u7B11\u5BB9\u5C0F\u767D\u72FC.png"
+    Data: {fileID: 21300000, guid: 49c3e65f7995c0b4ab28ca6074421bbb, type: 3}
   - Name: Packages/com.unity.analytics/DataPrivacy/DataPrivacyIcon.png
     Data: {fileID: 21300000, guid: 599a5fd92bab81a4ab02e52d0b1b1c60, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone.png
     Data: {fileID: 21300000, guid: 592cc37b962a5604599e514ecc35f4b2, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u65E0\u6B66\u5668/Avg_avg_1038_whitw2_1-5$1.png"
+    Data: {fileID: 21300000, guid: 69bd406e43eb74a43ba571c654a3fa33, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_hover.png
     Data: {fileID: 21300000, guid: 690f7358743df3f4595ba0342dd86e8e, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers.png
@@ -328,12 +346,16 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: bafbce9abecb79c4caa44438c394b0c0, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/dialogue_system_ring.png
     Data: {fileID: 21300000, guid: ba6d721237ede92468b28e6b3e5f4933, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u65E0\u6B66\u5668/Avg_avg_1038_whitw2_1-8$1.png"
+    Data: {fileID: 21300000, guid: da12507ba60dfca439eda549befe3410, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Dialog_light.png
     Data: {fileID: 21300000, guid: ea98217a9c10ced489bf5263b0a127e0, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn_normal_splice.png
     Data: {fileID: 21300000, guid: eae9010da23b6034e9f7b9d1fa5beae8, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_pressed.png
     Data: {fileID: 21300000, guid: 0bb8c8bd5e2dd7d4e9478eff46948a8b, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u6709\u6B66\u5668/Avg_avg_1038_whitw2_1-7$2.png"
+    Data: {fileID: 21300000, guid: 1bf802dd5b864834289a6425cab03f0d, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_normal.png
     Data: {fileID: 21300000, guid: 2b853cc63a87e894e81e0d761413c279, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Button.png
@@ -380,6 +402,8 @@ MonoBehaviour:
     Data: {fileID: -5177388603050735206, guid: cc35afd292fc349128b36a291fb3a165, type: 3}
   - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamondWithBorder.png
     Data: {fileID: 3625043607559282579, guid: 0d267bc78a0864eb48358689b29ed20a, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/\u6709\u6B66\u5668/\u4E50\u574F\u4E86.png"
+    Data: {fileID: 21300000, guid: 1d25ef843a2614248b115f3f0e82438c, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusTilemap@2x.png
     Data: {fileID: 21300000, guid: 1d8efe8a75b351d4d9aa8b28ddf93196, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowGrid@4x.png
@@ -404,6 +428,8 @@ MonoBehaviour:
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity
       - Inset.psd
     Data: {fileID: 21300000, guid: 7d3a920c42c6a734fb25908d06ea4728, type: 3}
+  - Name: "Assets/ArtRes/\u62C9\u666E\u5170\u5FB7/Avg_bg_56_g6_courtsquare_n.png"
+    Data: {fileID: 21300000, guid: 9d8fbce097bd613498b410ccbf987aeb, type: 3}
   - Name: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowGrid.png
     Data: {fileID: 21300000, guid: ad72aefbbd03ec744b3cf61cf766d320, type: 3}
   - Name: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png
@@ -432,6 +458,8 @@ MonoBehaviour:
     Data: {fileID: 21300000, guid: 7eabf328e5ad3944787e3543af874724, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBackground.png
     Data: {fileID: 21300000, guid: 7e6dd32f861d2d843bc4acabdb2f6df4, type: 3}
+  - Name: Assets/ArtRes/Avg_avg_1028_texas2_1-1$2.png
+    Data: {fileID: 21300000, guid: be755fc93300c6e40846595e8ba4ad88, type: 3}
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Slider
       2.psd
     Data: {fileID: 21300000, guid: be0cfa11f5f9f84468fd2e4261aec5d3, type: 3}

@@ -434,6 +434,7 @@ MonoBehaviour:
   m_text: {fileID: 7003619607671175872}
   nameOfCharacter: {fileID: 2219672423143353670}
   imageOfCharacter: {fileID: 0}
+  illustration: {fileID: 9079925535602378194}
   charDelay: 0.2
 --- !u!1 &3518669085322756148
 GameObject:

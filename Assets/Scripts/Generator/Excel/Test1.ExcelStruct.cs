@@ -17,5 +17,8 @@ namespace Test
 		[LabelText("对话内容")]
 		public string text;
 
+		[LabelText("立绘")]
+		public string Illustration;
+
 	}
 }
