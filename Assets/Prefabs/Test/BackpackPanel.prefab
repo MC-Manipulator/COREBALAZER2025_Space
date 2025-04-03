@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6963285976759604650}
   - component: {fileID: 6424195833976917760}
   m_Layer: 5
-  m_Name: Hand Button
+  m_Name: Offer Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 6886670274985763795}
   - component: {fileID: 5240806543968310716}
   m_Layer: 5
-  m_Name: BigImage
+  m_Name: Detail Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 2937508215755827830}
   - component: {fileID: 6156262286543437471}
   m_Layer: 5
-  m_Name: DetailDescription
+  m_Name: Detail Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 6939944668560348374}
   - component: {fileID: 6500948103222710659}
   m_Layer: 5
-  m_Name: DetailName
+  m_Name: Detail Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
