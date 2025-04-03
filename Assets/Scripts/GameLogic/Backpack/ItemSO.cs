@@ -6,8 +6,13 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Scriptable Objects/Item/Item")]
 public class ItemSO : SerializedScriptableObject
 {
-    public int id;
+    public ItemType itemName;
     public Sprite image;
-    public string itemName;
     public string itemDescription;
+}
+
+public enum ItemType
+{
+    ¿∂ È,
+    ¬Ã È,
 }

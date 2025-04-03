@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class ItemButton : MonoBehaviour
 {
-    public int id;
+    public ItemType itemName;
+    public delegate void SelectedItemButtonAction(ItemType itemType);
+    public SelectedItemButtonAction OnItemButtonSelected;
+
+
 
     public void SelectItem()
     {
-
+        OnItemButtonSelected.Invoke(itemName);
     }
 }

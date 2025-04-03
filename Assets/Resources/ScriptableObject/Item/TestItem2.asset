@@ -21,7 +21,6 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  id: 1
+  itemName: 1
   image: {fileID: 21300000, guid: bafbce9abecb79c4caa44438c394b0c0, type: 3}
-  itemName: "\u7EFF\u4E66"
   itemDescription: "\u4E00\u672C\u7EFF\u4E66"

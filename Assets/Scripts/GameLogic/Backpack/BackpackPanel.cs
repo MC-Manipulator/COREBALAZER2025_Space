@@ -16,10 +16,11 @@ public class BackpackPanel : MonoBehaviour
     public TMP_Text detailName;
     public TMP_Text detailDescription;
 
-    public Item selectedItem;
+    public ItemSO selectedItem;
+    public ItemSO currentSelectedItem;
 
-    public delegate void UseItemAction(int id);
-    public delegate void OfferItemAction(int id);
+    public delegate void UseItemAction(ItemType id);
+    public delegate void OfferItemAction(ItemType id);
 
     public event UseItemAction OnUseItem;
     public event OfferItemAction OnOfferItem;
@@ -29,7 +30,7 @@ public class BackpackPanel : MonoBehaviour
 
     private void Awake()
     {
-        ItemSystem.Instance.backpackPanel = this;
+        ItemMgr.GetInstance().backpackPanel = this;
     }
 
     public void SelectItemForOffering()
@@ -55,43 +56,45 @@ public class BackpackPanel : MonoBehaviour
         OnCloseBackpack?.Invoke();
     }
 
-    public void ShowItemDetail(Item item)
+    public void ClearDetail()
     {
-        detailImage.sprite = item.image;
-        detailName.text = item.itemName;
-        detailDescription.text = item.itemDescription;
+        detailImage.sprite = null;
+        detailName.text = "";
+        detailDescription.text = "";
     }
 
-    public void SelectItem(int id)
+    public void ShowItemDetail(ItemSO _item)
     {
-        Item item = GetItemInBackpack(id);
+        detailImage.sprite = _item.image;
+        detailName.text = _item.itemName.ToString();
+        detailDescription.text = _item.itemDescription;
+    }
+
+    public void SelectItem(ItemType _itemName)
+    {
+        ItemSO item = GetItemInBackpack(_itemName);
+        currentSelectedItem = item;
         selectedItem = item;
         ShowItemDetail(item);
     }
 
     public void OfferItem()
     {
-        OnOfferItem?.Invoke(selectedItem.id);
+        OnOfferItem?.Invoke(selectedItem.itemName);
     }
 
     public void UseItem()
     {
-        OnUseItem?.Invoke(selectedItem.id);
+        OnUseItem?.Invoke(selectedItem.itemName);
     }
 
-    public void AddItemButton(Item item)
+    public void AddItemButton(ItemSO _item)
     {
-        AddItemButton(item.id, item.itemName, item.itemDescription, item.image);
-    }
+        ItemSO item = new ItemSO();
 
-    public void AddItemButton(int id, string name, string description, Sprite sprite)
-    {
-        Item item = new Item();
-
-        item.id = id;
-        item.itemName = name;
-        item.itemDescription = description;
-        item.image = sprite;
+        item.itemName = _item.itemName;
+        item.itemDescription = _item.itemDescription;
+        item.image = _item.image;
 
         GameObject itemButton = new GameObject();
 
@@ -105,29 +108,45 @@ public class BackpackPanel : MonoBehaviour
 
         itemButton.GetComponent<Button>().targetGraphic = itemButton.GetComponent<Image>();
         itemButton.GetComponent<Button>().onClick.AddListener(buttonScript.SelectItem);
-        itemButton.GetComponent<Image>().sprite = sprite;
-        buttonScript.id = id;
+        itemButton.GetComponent<Image>().sprite = _item.image;
+        buttonScript.itemName = _item.itemName;
+        buttonScript.OnItemButtonSelected += SelectItem;
     }
 
-    public void RemoveItemButton(int id)
+    public void RemoveItemButton(ItemType _itemName)
     {
-        Item item = GetItemInBackpack(id);
-
+        ItemSO item = ItemMgr.GetInstance().GetItemInBackpack(_itemName);
         ItemButton[] buttonList = content.transform.GetComponentsInChildren<ItemButton>(true);
         foreach (ItemButton ib in buttonList)
         {
-            if (ib.id == id)
+            if (ib.itemName == item.itemName)
             {
                 Destroy(ib.gameObject);
                 break;
             }
         }
-
-        return;
+        if(currentSelectedItem != null)
+        {
+            if (_itemName == currentSelectedItem.itemName)
+            {
+                ClearDetail();
+                currentSelectedItem = null;
+            }
+        }
     }
 
-    public Item GetItemInBackpack(int id)
+    public ItemSO GetItemInBackpack(ItemType _itemName)
     {
-        return ItemSystem.Instance.GetItemInBackpack(id);
+        return ItemMgr.GetInstance().GetItemInBackpack(_itemName);
+    }
+
+    public void TestAddItemToBackpack(int id)
+    {
+        ItemMgr.GetInstance().AddItemToBackpack((ItemType)id);
+    }
+
+    public void TestRemoveItemFromBackpack(int id)
+    {
+        ItemMgr.GetInstance().RemoveItemFromBackpack((ItemType)id);
     }
 }
