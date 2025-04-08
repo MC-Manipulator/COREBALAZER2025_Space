@@ -61,24 +61,9 @@ public class DialogueDataLoader : SerializedMonoBehaviour
 #if UNITY_EDITOR // 确保只在编辑器下执行
         // 创建ScriptableObject实例
         DialogueSO dialogue = ScriptableObject.CreateInstance<DialogueSO>();
-
-        foreach(Test1 text in texts)
-        {
-            NarrationCharacter narrationCharacter = characterDic[text.m_name];
-            Sprite illustration;
-            if (narrationCharacter.IllustrationOfCharacter.ContainsKey(text.Illustration))
-            {
-                illustration = narrationCharacter.IllustrationOfCharacter[text.Illustration];
-            }
-            else
-            {
-                illustration = narrationCharacter.IllustrationOfCharacter.First().Value;
-            }
-            dialogue.nodes.Add(new BasicDialogueNode(text.text, narrationCharacter, illustration));
-        }
         // 设置你想要保存的路径
         // 注意：路径应该相对于Resources文件夹
-        string resourcesSubPath = "ScriptObject/DialogueData"; // Resources下的子文件夹
+        string resourcesSubPath = "ScriptableObject/DialogueData"; // Resources下的子文件夹
         string assetName = _assetName + ".asset";
 
         // 确保路径存在
@@ -91,6 +76,51 @@ public class DialogueDataLoader : SerializedMonoBehaviour
         // 保存asset
         string assetPath = "Assets/Resources/" + resourcesSubPath + "/" + assetName;
         AssetDatabase.CreateAsset(dialogue, assetPath);
+        foreach (Test1 text in texts)
+        {
+            Debug.Log(text.text);
+            NarrationCharacter narrationCharacter = characterDic[text.m_name];
+            Sprite illustration;
+            if (narrationCharacter.IllustrationOfCharacter.ContainsKey(text.Illustration))
+            {
+                illustration = narrationCharacter.IllustrationOfCharacter[text.Illustration];
+            }
+            else
+            {
+                illustration = narrationCharacter.IllustrationOfCharacter.First().Value;
+            }
+
+            if (text.type == "Choice")
+            {
+                ChoiceDialogueNode dialogueNode = ScriptableObject.CreateInstance<ChoiceDialogueNode>();
+                dialogueNode = new ChoiceDialogueNode(text.text, narrationCharacter, illustration);
+                dialogueNode.choices = new DialogueChoice[text.nextNodeIndex.Count];
+                for (int i = 0; i < text.nextNodeIndex.Count; i++)
+                {
+                    dialogueNode.choices[i] = new DialogueChoice(text.choicePreview[i], text.nextNodeIndex[i]);
+                }
+                Debug.Log(text.text);
+                dialogueNode.name = dialogueNode.m_text;
+                dialogue.nodes.Add(dialogueNode);
+                AssetDatabase.AddObjectToAsset(dialogueNode, dialogue);
+            }
+            else
+            {
+                BasicDialogueNode dialogueNode = ScriptableObject.CreateInstance<BasicDialogueNode>();
+                dialogueNode = new BasicDialogueNode(text.text, narrationCharacter, illustration);
+                if (text.nextNodeIndex[0] == 0)
+                {
+                    dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
+                }
+                else
+                {
+                    dialogueNode.nextNodeIndex = text.nextNodeIndex[0];
+                }
+                dialogueNode.name = dialogueNode.m_text;
+                dialogue.nodes.Add(dialogueNode);
+                AssetDatabase.AddObjectToAsset(dialogueNode, dialogue);
+            }
+        }
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
 

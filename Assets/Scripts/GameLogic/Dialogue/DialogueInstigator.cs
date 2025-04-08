@@ -15,13 +15,14 @@ public class DialogueInstigator : MonoBehaviour
 
         EventCenter.GetInstance().AddEventListener<DialogueSO>("对话请求", m_DialogueSequencer.StartDialogue);
         EventCenter.GetInstance().AddEventListener("对话节点请求", m_DialogueSequencer.StartDialogueNode);
+        EventCenter.GetInstance().AddEventListener<int>("对话节点请求带参", m_DialogueSequencer.StartDialogueNode);
     }
 
     private void OnDestroy()
     {
         EventCenter.GetInstance().RemoveEventListener<DialogueSO>("对话请求", m_DialogueSequencer.StartDialogue);
         EventCenter.GetInstance().RemoveEventListener("对话节点请求", m_DialogueSequencer.StartDialogueNode);
-
+        EventCenter.GetInstance().RemoveEventListener<int>("对话节点请求带参", m_DialogueSequencer.StartDialogueNode);
         m_DialogueSequencer = null;
     }
 }

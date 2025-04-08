@@ -1,5 +1,11 @@
-*DialogueData(Test1),,
-*m_name(String),*text(String),*Illustration(String)
-Lappland,I love you so,
-Texa,Please let me go,
-Lappland,But I love you so,
+*DialogueData(Test1),,,,,
+*m_name(String),*text(String),*Illustration(String),*type(String),*choicePreview(List<String>),*nextNodeIndex(List<Int32>)
+Lappland,你选择1还是2还是3？,,,,
+Texa,我想想,,Choice,我选择1|我选择2|我选择3,2|4|6
+Lappland,哈哈,,,,
+Lappland,我就知道你选了1,,,,8
+Lappland,哈哈,,,,
+Lappland,我就知道你选了2,,,,8
+Lappland,哈哈,,,,
+Lappland,我就知道你选了3,,,,
+Texa,无聊,,,,

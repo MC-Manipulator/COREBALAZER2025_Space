@@ -11,5 +11,10 @@ using UnityEngine;
 public class DialogueSO : SerializedScriptableObject
 {
     [SerializeField]
+    [ListDrawerSettings(
+        DraggableItems = true, 
+        ShowItemCount = true, 
+        HideAddButton = false
+    )]
     public List<DialogueNode> nodes = new List<DialogueNode>();
 }

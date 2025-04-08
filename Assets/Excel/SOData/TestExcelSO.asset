@@ -15,13 +15,75 @@ MonoBehaviour:
   RawDataList:
   - DialogueData:
       m_name: Lappland
-      text: I love you so
+      text: "\uFFFD\uFFFD\u0461\uFFFD\uFFFD1\uFFFD\uFFFD\uFFFD\uFFFD2\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD"
       Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 00000000
   - DialogueData:
       m_name: Texa
-      text: Please let me go
+      text: "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
       Illustration: 
+      type: Choice
+      choicePreview:
+      - "\uFFFD\uFFFD\u0461\uFFFD\uFFFD1"
+      - "\uFFFD\uFFFD\u0461\uFFFD\uFFFD2"
+      - "\uFFFD\uFFFD\u0461\uFFFD\uFFFD3"
+      nextNodeIndex: 020000000400000006000000
   - DialogueData:
       m_name: Lappland
-      text: But I love you so
+      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
       Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 00000000
+  - DialogueData:
+      m_name: Lappland
+      text: "\uFFFD\u04BE\uFFFD\u05AA\uFFFD\uFFFD\uFFFD\uFFFD\u0461\uFFFD\uFFFD1"
+      Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 08000000
+  - DialogueData:
+      m_name: Lappland
+      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
+      Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 00000000
+  - DialogueData:
+      m_name: Lappland
+      text: "\uFFFD\u04BE\uFFFD\u05AA\uFFFD\uFFFD\uFFFD\uFFFD\u0461\uFFFD\uFFFD2"
+      Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 08000000
+  - DialogueData:
+      m_name: Lappland
+      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
+      Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 00000000
+  - DialogueData:
+      m_name: Lappland
+      text: "\uFFFD\u04BE\uFFFD\u05AA\uFFFD\uFFFD\uFFFD\uFFFD\u0461\uFFFD\uFFFD3"
+      Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 00000000
+  - DialogueData:
+      m_name: Texa
+      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
+      Illustration: 
+      type: 
+      choicePreview:
+      - 
+      nextNodeIndex: 00000000

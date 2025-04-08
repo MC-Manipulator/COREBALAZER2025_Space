@@ -20,5 +20,14 @@ namespace Test
 		[LabelText("立绘")]
 		public string Illustration;
 
+		[LabelText("节点类型")]
+		public string type;
+
+		[LabelText("选项描述")]
+		public List<string> choicePreview;
+
+		[LabelText("节点指针")]
+		public List<int> nextNodeIndex;
+
 	}
 }

@@ -16,6 +16,7 @@ public class DialoguePanel : MonoBehaviour, DialogueNodeVisitor
     public float charDelay;
     private bool isPrinting = false;
     private Tweener textTween;
+    public Transform m_ChoicesBoxTransform;
 
     private void Awake()
     {
@@ -38,6 +39,22 @@ public class DialoguePanel : MonoBehaviour, DialogueNodeVisitor
          isPrinting = false;
         });
         nameOfCharacter.text = node.speaker.characterName;
+    }
+
+    public void Visit(ChoiceDialogueNode node)
+    {
+        m_ChoicesBoxTransform.gameObject.SetActive(true);
+
+        foreach (DialogueChoice choice in node.choices)
+        {
+            if(!choice.IsMetConditions()) continue;
+            ResMgr.GetInstance().LoadAsync<GameObject>("UI/Option", (obj) =>
+            {
+                UIDialogueChoiceController newChoice = obj.GetComponent<UIDialogueChoiceController>();
+                newChoice.Initialization(choice.nextNodeIndex, choice.choicePreview,choice.dic);
+                obj.transform.SetParent(m_ChoicesBoxTransform);
+            });
+        }
     }
 
     public void NextNode()
