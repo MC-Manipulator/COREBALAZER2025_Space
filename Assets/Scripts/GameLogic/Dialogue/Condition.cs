@@ -6,16 +6,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Dialogue/Condition")]
+[CreateAssetMenu(menuName = "Dialogue/Condition")]
 [Serializable]
 [ShowInInspector]
 public class Condition : SerializedScriptableObject
 {
     public IJudge judge;
-    public string statName;
+    [AssetSelector(Paths = "Assets/Resources/ScriptableObject/Dialogue/Properties Data.asset")]
+    public Stat stat;
     public bool IsConditionTrue()
     {
-        return judge.IsConditionTrue(StatMgr.GetInstance().GetStatValue(statName));
+        return judge.IsConditionTrue(stat);
     }
 }
 

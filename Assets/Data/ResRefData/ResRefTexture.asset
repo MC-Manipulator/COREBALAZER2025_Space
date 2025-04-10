@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269eca79f8c441b391d887cd56efc090, type: 3}
   m_Name: ResRefTexture
   m_EditorClassIdentifier: 
-  Filters: []
   ResRefs:
   - Name: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2@2x.png
     Data: {fileID: 2800000, guid: 0029170d14ce6c04c9f45c22cdae5559, type: 3}
@@ -1106,8 +1105,6 @@ MonoBehaviour:
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared
       Textures/QTE 1 Evil.png
     Data: {fileID: 2800000, guid: 2af0b3d0c6b321c43b9e73aeb637d776, type: 3}
-  - Name: Assets/EggDataKit/3rd/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png
-    Data: {fileID: 2800000, guid: 2a0112a98875dfd488b5d10bdb8a4903, type: 3}
   - Name: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png
     Data: {fileID: 2800000, guid: 2a8208d8e80f90944b8ff2978292b03b, type: 3}
   - Name: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png

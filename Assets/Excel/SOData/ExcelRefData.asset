@@ -15,3 +15,5 @@ MonoBehaviour:
   ExcelDataRefs:
   - Name: TestExcel
     TextAsset: {fileID: 4900000, guid: c6d38f77245186742b26a7ce6373f726, type: 3}
+  - Name: WWW
+    TextAsset: {fileID: 4900000, guid: de16eeaa4b2a7c149b36f0c6c9864b63, type: 3}

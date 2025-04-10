@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 using System.Reflection;
 using Test;
 using System.Linq;
-
+using EggFramework.Generator;
 /// <summary>
 /// Excel模块和对话模块的桥接，负责将存储Excel数据的ScriptObject进一步转化为对话使用的SO数据
 /// </summary>
@@ -30,7 +30,7 @@ public class DialogueDataLoader : SerializedMonoBehaviour
             return;
         }
 
-        listeners.Clear();
+        //listeners.Clear();
 
         Debug.Log($"开始从文件夹 {targetFolderPath} 收集 ScriptableObjects...");
 
@@ -42,10 +42,15 @@ public class DialogueDataLoader : SerializedMonoBehaviour
             string path = AssetDatabase.GUIDToAssetPath(guid);
             ScriptableObject obj = AssetDatabase.LoadAssetAtPath<ScriptableObject>(path);
 
-            if (obj != null && obj.name != "ExcelRefData")
+            if (obj != null && obj.name != "ExcelRefData" && obj.name != "TestExcelDataView")
             {
-                CreateAndSaveScriptableObject(ExtractAllTest1(obj),obj.name);
-                listeners.Add(obj);
+                if (listeners.Contains(obj))
+                {
+                    Debug.Log("已经包含" + obj.name);
+                    continue;
+                }
+                else listeners.Add(obj);
+                CreateAndSaveScriptableObject(ExtractAllTest1(obj), obj.name);
                 Debug.Log($"找到并添加 ScriptableObject: {path}");
             }
         }
@@ -63,7 +68,7 @@ public class DialogueDataLoader : SerializedMonoBehaviour
         DialogueSO dialogue = ScriptableObject.CreateInstance<DialogueSO>();
         // 设置你想要保存的路径
         // 注意：路径应该相对于Resources文件夹
-        string resourcesSubPath = "ScriptableObject/DialogueData"; // Resources下的子文件夹
+        string resourcesSubPath = "ScriptableObject/Dialogue/DialogueData"; // Resources下的子文件夹
         string assetName = _assetName + ".asset";
 
         // 确保路径存在
@@ -78,7 +83,7 @@ public class DialogueDataLoader : SerializedMonoBehaviour
         AssetDatabase.CreateAsset(dialogue, assetPath);
         foreach (Test1 text in texts)
         {
-            Debug.Log(text.text);
+            //Debug.Log(text.text);
             NarrationCharacter narrationCharacter = characterDic[text.m_name];
             Sprite illustration;
             if (narrationCharacter.IllustrationOfCharacter.ContainsKey(text.Illustration))
@@ -99,7 +104,21 @@ public class DialogueDataLoader : SerializedMonoBehaviour
                 {
                     dialogueNode.choices[i] = new DialogueChoice(text.choicePreview[i], text.nextNodeIndex[i]);
                 }
-                Debug.Log(text.text);
+                //Debug.Log(text.text);
+                dialogueNode.name = dialogueNode.m_text;
+                dialogue.nodes.Add(dialogueNode);
+                AssetDatabase.AddObjectToAsset(dialogueNode, dialogue);
+            }
+            else if (text.type == "Branch")
+            {
+                BranchDialogueNode dialogueNode = ScriptableObject.CreateInstance<BranchDialogueNode>();
+                dialogueNode = new BranchDialogueNode(text.text, narrationCharacter, illustration);
+                dialogueNode.branchs = new DialogueBranch[text.nextNodeIndex.Count];
+                for (int i = 0; i < text.nextNodeIndex.Count; i++)
+                {
+                    dialogueNode.branchs[i] = new DialogueBranch(text.nextNodeIndex[i]);
+                }
+                //Debug.Log(text.text);
                 dialogueNode.name = dialogueNode.m_text;
                 dialogue.nodes.Add(dialogueNode);
                 AssetDatabase.AddObjectToAsset(dialogueNode, dialogue);
@@ -108,13 +127,20 @@ public class DialogueDataLoader : SerializedMonoBehaviour
             {
                 BasicDialogueNode dialogueNode = ScriptableObject.CreateInstance<BasicDialogueNode>();
                 dialogueNode = new BasicDialogueNode(text.text, narrationCharacter, illustration);
-                if (text.nextNodeIndex[0] == 0)
+                if(text.nextNodeIndex.Count > 0)
                 {
-                    dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
+                    if (text.nextNodeIndex[0] == 0)
+                    {
+                        dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
+                    }
+                    else
+                    {
+                        dialogueNode.nextNodeIndex = text.nextNodeIndex[0];
+                    }
                 }
                 else
                 {
-                    dialogueNode.nextNodeIndex = text.nextNodeIndex[0];
+                    dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
                 }
                 dialogueNode.name = dialogueNode.m_text;
                 dialogue.nodes.Add(dialogueNode);

@@ -9,81 +9,94 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7d5ab3032e6fb040a0067061f2d30ed, type: 3}
+  m_Script: {fileID: 11500000, guid: bcb90c060e9d0cf4aae2337198a3d388, type: 3}
   m_Name: TestExcelSO
   m_EditorClassIdentifier: 
   RawDataList:
   - DialogueData:
       m_name: Lappland
-      text: "\uFFFD\uFFFD\u0461\uFFFD\uFFFD1\uFFFD\uFFFD\uFFFD\uFFFD2\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD"
+      text: "\u4F60\u9009\u62E91\u8FD8\u662F2\u8FD8\u662F3\uFF1F"
       Illustration: 
       type: 
-      choicePreview:
-      - 
-      nextNodeIndex: 00000000
+      choicePreview: []
+      nextNodeIndex: 
   - DialogueData:
       m_name: Texa
-      text: "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
+      text: "\u6211\u60F3\u60F3"
       Illustration: 
       type: Choice
       choicePreview:
-      - "\uFFFD\uFFFD\u0461\uFFFD\uFFFD1"
-      - "\uFFFD\uFFFD\u0461\uFFFD\uFFFD2"
-      - "\uFFFD\uFFFD\u0461\uFFFD\uFFFD3"
+      - "\u6211\u9009\u62E91"
+      - "\u6211\u9009\u62E92"
+      - "\u6211\u9009\u62E93"
       nextNodeIndex: 020000000400000006000000
   - DialogueData:
       m_name: Lappland
-      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
+      text: "\u6211\u5C31\u77E5\u9053\u4F60\u9009\u4E861"
       Illustration: 
       type: 
-      choicePreview:
-      - 
-      nextNodeIndex: 00000000
+      choicePreview: []
+      nextNodeIndex: 
   - DialogueData:
       m_name: Lappland
-      text: "\uFFFD\u04BE\uFFFD\u05AA\uFFFD\uFFFD\uFFFD\uFFFD\u0461\uFFFD\uFFFD1"
+      text: "\u54C8\u54C8"
       Illustration: 
       type: 
-      choicePreview:
-      - 
+      choicePreview: []
       nextNodeIndex: 08000000
   - DialogueData:
       m_name: Lappland
-      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
+      text: "\u6211\u5C31\u77E5\u9053\u4F60\u9009\u4E862"
       Illustration: 
       type: 
-      choicePreview:
-      - 
-      nextNodeIndex: 00000000
+      choicePreview: []
+      nextNodeIndex: 
   - DialogueData:
       m_name: Lappland
-      text: "\uFFFD\u04BE\uFFFD\u05AA\uFFFD\uFFFD\uFFFD\uFFFD\u0461\uFFFD\uFFFD2"
+      text: "\u54C8\u54C8"
       Illustration: 
       type: 
-      choicePreview:
-      - 
+      choicePreview: []
       nextNodeIndex: 08000000
   - DialogueData:
       m_name: Lappland
-      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
+      text: "\u6211\u5C31\u77E5\u9053\u4F60\u9009\u4E863"
       Illustration: 
       type: 
-      choicePreview:
-      - 
-      nextNodeIndex: 00000000
+      choicePreview: []
+      nextNodeIndex: 
   - DialogueData:
       m_name: Lappland
-      text: "\uFFFD\u04BE\uFFFD\u05AA\uFFFD\uFFFD\uFFFD\uFFFD\u0461\uFFFD\uFFFD3"
+      text: "\u54C8\u54C8"
       Illustration: 
       type: 
-      choicePreview:
-      - 
-      nextNodeIndex: 00000000
+      choicePreview: []
+      nextNodeIndex: 
   - DialogueData:
       m_name: Texa
-      text: "\uFFFD\uFFFD\uFFFD\uFFFD"
+      text: "\u3002\u3002\u3002"
+      Illustration: 
+      type: Branch
+      choicePreview: []
+      nextNodeIndex: 090000000a000000
+  - DialogueData:
+      m_name: Lappland
+      text: "\u6211\u4EEC\u8FD8\u662F\u633A\u6709\u7F18\u5206\u7684\uFF0C\u6211\u4E5F\u60F3\u4E86\u8FD9\u4E2A\u6570\u5B57"
       Illustration: 
       type: 
-      choicePreview:
-      - 
-      nextNodeIndex: 00000000
+      choicePreview: []
+      nextNodeIndex: 0b000000
+  - DialogueData:
+      m_name: Lappland
+      text: "\u6211\u4EEC\u6CA1\u6709\u7F18\u5206\u554A\uFF0C\u6211\u60F3\u4E86\u53E6\u4E00\u4E2A\u6570\u5B57"
+      Illustration: 
+      type: 
+      choicePreview: []
+      nextNodeIndex: 
+  - DialogueData:
+      m_name: Texa
+      text: "\u3002\u3002\u3002"
+      Illustration: 
+      type: 
+      choicePreview: []
+      nextNodeIndex: 

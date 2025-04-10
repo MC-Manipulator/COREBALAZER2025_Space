@@ -1,11 +1,14 @@
 *DialogueData(Test1),,,,,
 *m_name(String),*text(String),*Illustration(String),*type(String),*choicePreview(List<String>),*nextNodeIndex(List<Int32>)
-Lappland,ÄãÑ¡Ôñ1»¹ÊÇ2»¹ÊÇ3£¿,,,,
-Texa,ÎÒÏëÏë,,Choice,ÎÒÑ¡Ôñ1|ÎÒÑ¡Ôñ2|ÎÒÑ¡Ôñ3,2|4|6
-Lappland,¹ş¹ş,,,,
-Lappland,ÎÒ¾ÍÖªµÀÄãÑ¡ÁË1,,,,8
-Lappland,¹ş¹ş,,,,
-Lappland,ÎÒ¾ÍÖªµÀÄãÑ¡ÁË2,,,,8
-Lappland,¹ş¹ş,,,,
-Lappland,ÎÒ¾ÍÖªµÀÄãÑ¡ÁË3,,,,
-Texa,ÎŞÁÄ,,,,
+Lappland,ä½ é€‰æ‹©1è¿˜æ˜¯2è¿˜æ˜¯3ï¼Ÿ,,,,,
+Texa,æˆ‘æƒ³æƒ³,,Choice,æˆ‘é€‰æ‹©1|æˆ‘é€‰æ‹©2|æˆ‘é€‰æ‹©3,2|4|6,
+Lappland,æˆ‘å°±çŸ¥é“ä½ é€‰äº†1,,,,,
+Lappland,å“ˆå“ˆ,,,,8,
+Lappland,æˆ‘å°±çŸ¥é“ä½ é€‰äº†2,,,,,
+Lappland,å“ˆå“ˆ,,,,8,
+Lappland,æˆ‘å°±çŸ¥é“ä½ é€‰äº†3,,,,,
+Lappland,å“ˆå“ˆ,,,,,
+Texa,ã€‚ã€‚ã€‚,,Branch,,9|10,
+Lappland,æˆ‘ä»¬è¿˜æ˜¯æŒºæœ‰ç¼˜åˆ†çš„ï¼Œæˆ‘ä¹Ÿæƒ³äº†è¿™ä¸ªæ•°å­—,,,,11,
+Lappland,æˆ‘ä»¬æ²¡æœ‰ç¼˜åˆ†å•Šï¼Œæˆ‘æƒ³äº†å¦ä¸€ä¸ªæ•°å­—,,,,,
+Texa,ã€‚ã€‚ã€‚,,,,,

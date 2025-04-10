@@ -10,18 +10,17 @@ public class UIDialogueChoiceController : MonoBehaviour
     private TextMeshProUGUI m_Choice;
 
     private int m_ChoiceNextNode;
-    public Dictionary<string, Stat> dic;
-
+    public StatValuePair[] statValuePairs;
     private void Awake()
     {
         m_Choice = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    public void Initialization(int _choiceNode,string _choicePreview,Dictionary<string, Stat> _dic)
+    public void Initialization(int _choiceNode,string _choicePreview,StatValuePair[] _statValuePairs)
     {
         m_Choice.text = _choicePreview;
         m_ChoiceNextNode = _choiceNode;
-        dic = _dic;
+        statValuePairs = _statValuePairs;
     }
 
     private void Start()
@@ -32,13 +31,13 @@ public class UIDialogueChoiceController : MonoBehaviour
     private void OnClick()
     {
         EventCenter.GetInstance().EventTrigger<int>("对话节点请求带参", m_ChoiceNextNode);
-        if (dic != null)
+        if (statValuePairs != null)
         {
-            if (dic.Count > 0)
+            if (statValuePairs.Length > 0)
             {
-                foreach (KeyValuePair<string, Stat> pair in dic)
+                foreach (StatValuePair pair in statValuePairs)
                 {
-                    StatMgr.GetInstance().ChangeStatValue(pair.Key, pair.Value);
+                    pair.ApplyValueToStat();
                 }
             }
         }

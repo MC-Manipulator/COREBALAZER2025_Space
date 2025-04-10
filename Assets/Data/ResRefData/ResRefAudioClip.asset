@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e24822597c334cd3ab5ea4059fae3555, type: 3}
   m_Name: ResRefAudioClip
   m_EditorClassIdentifier: 
-  Filters: []
   ResRefs:
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Resources/Private_Hart_1_3.ogg
     Data: {fileID: 8300000, guid: 00301701d7d537f41a17f1390c0ea4c7, type: 3}

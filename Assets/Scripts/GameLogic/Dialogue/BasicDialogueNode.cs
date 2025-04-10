@@ -5,10 +5,11 @@ using UnityEngine;
 /// <summary>
 /// 基本的对话节点
 /// </summary>
-[CreateAssetMenu(menuName = "Scriptable Objects/Narration/Dialogue/Node/Basic")]
+[CreateAssetMenu(menuName = "Dialogue/Node/Basic")]
 public class BasicDialogueNode : DialogueNode
 {
-    public Dictionary<string, Stat> dic;
+    //public Dictionary<string, Stat> dic;
+    public StatValuePair[] statValuePairs;
 
     public BasicDialogueNode(string _text, NarrationCharacter _speaker,Sprite _sprite)
     {
@@ -20,13 +21,13 @@ public class BasicDialogueNode : DialogueNode
     public override void Accept(DialogueNodeVisitor visitor)
     {
         visitor.Visit(this);
-        if(dic != null)
+        if (statValuePairs != null)
         {
-            if(dic.Count > 0)
+            if (statValuePairs.Length > 0)
             {
-                foreach (KeyValuePair<string, Stat> pair in dic)
+                foreach (StatValuePair pair in statValuePairs)
                 {
-                    StatMgr.GetInstance().ChangeStatValue(pair.Key, pair.Value);
+                    pair.ApplyValueToStat();
                 }
             }
         }

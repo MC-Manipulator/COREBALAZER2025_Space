@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b636a8996ddb604da1778099f662189, type: 3}
   m_Name: ResRefShader
   m_EditorClassIdentifier: 
-  Filters: []
   ResRefs:
   - Name: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
     Data: {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}

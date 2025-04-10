@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2c9cb932bd423a994dfd9110b38270, type: 3}
+  m_Name: ResRefGameObject
+  m_EditorClassIdentifier: 
+  ResRefs:
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/WallTypeA.FBX
+    Data: {fileID: 100000, guid: 80c7024b261b4e84db664b41ca4d628b, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Bubble/Bubble
+      Template Standard UI Subtitle Panel.prefab
+    Data: {fileID: 122694, guid: 9052074e55e1f964c8c25e4b6d86be6c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Letterbox/Letterbox
+      Template Standard Dialogue UI.prefab
+    Data: {fileID: 190722, guid: 90632d3b48c4c204a8745ed54bc1f708, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/WRPG/WRPG
+      Template Standard Dialogue UI.prefab
+    Data: {fileID: 164380, guid: c0c96af2230a56b45b77a95543e6ac50, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/FloorPanel.FBX
+    Data: {fileID: 100000, guid: e0ce03a3cbcc10b42862821b90e2adc9, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/SMS/SMS
+      Dialogue UI.prefab
+    Data: {fileID: 1185022956723936, guid: 110a7148858b6f74c87ceac031c8eaba, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic
+      Standard Bark UI.prefab
+    Data: {fileID: 195152, guid: 21b4828b943afef4896267f31f98ee1a, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/LargeDoorsA.FBX
+    Data: {fileID: 100000, guid: 61859fca71ff23e4ab0ea43b60346feb, type: 3}
+  - Name: Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab
+    Data: {fileID: 109076, guid: 71b11355001648444b41d17fd36c150d, type: 3}
+  - Name: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+    Data: {fileID: 5843497292548984443, guid: c116b7497ab8ca34c9188965d4295e27, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/VN/VN
+      Template Standard Dialogue UI.prefab
+    Data: {fileID: 196456, guid: d1b7749dcc0beaf4f8d455f24cc4f0f7, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Nuke/Nuke
+      Standard Dialogue UI.prefab
+    Data: {fileID: 1401545408871970, guid: 3275a4cc1b86c8c4592779f97f1d9fd1, type: 3}
+  - Name: Assets/Plugins/SaveSystem/Prefabs/Dialog.prefab
+    Data: {fileID: 2837465135047844759, guid: 42a5668078110c34b9ed93351443adc9, type: 3}
+  - Name: Assets/Prefabs/Test/ClueBoard.prefab
+    Data: {fileID: 988181789063319200, guid: 5219760c9e84a2a4a9ae9409cbcc2ba7, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic
+      Standard Quest Tracker HUD.prefab
+    Data: {fileID: 121952, guid: 720348da784b8fa49a7c48365da6f1b1, type: 3}
+  - Name: Assets/Prefabs/Test/AudioSettingBoard.prefab
+    Data: {fileID: 5508109725268539119, guid: c236afe6bf2adec4c98a8e78666ef982, type: 3}
+  - Name: Assets/Prefabs/Test/BackpackPanel.prefab
+    Data: {fileID: 2938918620989266472, guid: d2987960e7e4ebb42b608b0e9ceba156, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Focus/Focus
+      Template Standard Dialogue UI.prefab
+    Data: {fileID: 119578, guid: e242d40773918c04ba724d6ebc8ace30, type: 3}
+  - Name: Assets/Resources/UI/Canvas.prefab
+    Data: {fileID: 1833746564988402, guid: f2e75baaa7141d1459b20bb0c1140221, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/CeilingA.FBX
+    Data: {fileID: 100000, guid: 736bc510f28550b409626cbece5af25e, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/LightEndBox.FBX
+    Data: {fileID: 100000, guid: 8390cd2051051ae4e8161210e43de8f7, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Resources/Default Dialogue
+      UI.prefab
+    Data: {fileID: 100028, guid: 04cb41d2fe195f04a9216359872a2106, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Sci-fi/Sci-fi
+      Standard Dialogue UI.prefab
+    Data: {fileID: 192052, guid: d4435d68dd2fab14e933d23e59ac343f, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Dialogue Manager.prefab
+    Data: {fileID: 1003643122459378, guid: d4353500a4689e444a5a0ed100a259e5, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic
+      Standard UI Quest Log Window.prefab
+    Data: {fileID: 162630, guid: f40d1072f56eeb04f9c104b7c4a8811f, type: 3}
+  - Name: Assets/Prefabs/Test/ClueEntry.prefab
+    Data: {fileID: 6798237827641556664, guid: 15d4a3ebe8cdd3044b2d6f0398b5dfe2, type: 3}
+  - Name: Assets/Resources/UI/DialoguePanel.prefab
+    Data: {fileID: 2962818756888399571, guid: 2579db148b5dfb940adaa53c84c43029, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Enemy.prefab
+    Data: {fileID: 100088, guid: 352b04850feb3eb4e9f7b144993fe65b, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic
+      Standard Dialogue UI TMPro.prefab
+    Data: {fileID: 101180, guid: a5b4dc18ac65b8d4aa58af9b95d65f77, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic
+      Standard UI Selector Elements.prefab
+    Data: {fileID: 168688, guid: a5c98dfcec76e1847a0aa8d7c8a93459, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/Pipe.FBX
+    Data: {fileID: 100000, guid: c590c3c5452726e46a60703d50104eba, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/WallLamp.FBX
+    Data: {fileID: 100000, guid: c55569fb51e2839469e10cf061ee7ed3, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Bubble/Bubble
+      Template Standard Bark UI.prefab
+    Data: {fileID: 135794, guid: d5a18ab9ec93e0d4284d6fbae4f557e0, type: 3}
+  - Name: Assets/Prefabs/Test/VN Dialogue UI.prefab
+    Data: {fileID: 196456, guid: d5e6810452f837c4ba61dd6225053ce3, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Room.prefab
+    Data: {fileID: 100000, guid: 56aa82917f38f54449255fb7967f7a3a, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/SceneFaderCanvas.prefab
+    Data: {fileID: 113230, guid: 57901d8399fd6e74fbabbc9956f39557, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Computer/Computer
+      Standard Dialogue UI.prefab
+    Data: {fileID: 1024589797444566, guid: 576820d27454daf4bb3b31f6c63b04ca, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/JRPG/JRPG
+      Template Standard Dialogue UI.prefab
+    Data: {fileID: 177140, guid: 77d31c2998b2bd148b0ede2a5ab00489, type: 3}
+  - Name: Assets/Plugins/SaveSystem/Plugins/Easy Save 3/Scripts/Save Slots/Easy Save
+      Slots Canvas.prefab
+    Data: {fileID: 836675905516085355, guid: c7b06d0054ae75b41bc4f2b9d5528b04, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Private Hart.prefab
+    Data: {fileID: 100032, guid: e7a77adaa6b9c584bbace0646e8d049a, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Old
+      School/Old School Standard Dialogue UI.prefab
+    Data: {fileID: 1787654973930346, guid: 48c4026eae2c41d4a8767272f2830356, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/WallDividerA_atLargeDoor.FBX
+    Data: {fileID: 100000, guid: 48953a5231740b84d8e6798c64c2503e, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Dialogue Manager.prefab
+    Data: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Scrolling/Scrolling
+      Dialogue UI.prefab
+    Data: {fileID: 1884801533082028, guid: b85118f82c276504f859890a517fa02c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/Tanker.FBX
+    Data: {fileID: 100000, guid: e8a3332341b71ab438b1545155cabf1c, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel
+      Standard UI Quest Log Window.prefab
+    Data: {fileID: 174416, guid: f873a592e0f5eb7469d72cf7162ed7ad, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Terminal Dialogue
+      UI.prefab
+    Data: {fileID: 2472485058779002314, guid: 5928f2e0b7debd94cba80a5bb1732260, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Model/mReconTroop.fbx
+    Data: {fileID: 100034, guid: a9cfab5a8b4a0a0448926ba5ca880442, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Bubble/Bubble
+      Template Standard UI Menu Panel.prefab
+    Data: {fileID: 110526, guid: 7ad6c6a623182da45943ac32462b53dd, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/WallDividerA.FBX
+    Data: {fileID: 100000, guid: ba4086086b6963e428f5771405982842, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Resources/Default Camera
+      Angles.prefab
+    Data: {fileID: 100004, guid: 2b0156ab106d6f14abd29d337eb70351, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic
+      Standard Usable UI.prefab
+    Data: {fileID: 140896, guid: 3b6bd600f1610bb4685a5f32959f0fae, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Runic/Runic
+      Standard Dialogue UI.prefab
+    Data: {fileID: 147116, guid: 4b372d6b3e80ce04e99683e81c7de9ca, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/ElectricBox.FBX
+    Data: {fileID: 100000, guid: 5b10d988121a9874694af30f21e5a3a4, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic
+      Standard Dialogue UI.prefab
+    Data: {fileID: 101180, guid: 5ba51781a19f8a843abeb2d304d0d26e, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Dead Enemy.prefab
+    Data: {fileID: 100090, guid: 9bcb8d5c2994ab24786298f0093ac1ff, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/Terminal.FBX
+    Data: {fileID: 100000, guid: bb72364520946c44d99f048ac2993daa, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel
+      Standard Dialogue UI.prefab
+    Data: {fileID: 161038, guid: 5c56f58e2d14e894c96171a7540a6a1d, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Runic/Runic
+      Standard Quest Tracker HUD.prefab
+    Data: {fileID: 1860548887524214, guid: 6cd14c0b7efe026498de3e3c210f4616, type: 3}
+  - Name: Assets/Resources/UI/EventSystem.prefab
+    Data: {fileID: 1145598752367304, guid: dc636f4d3c3c82e43bfe3d6553c1383a, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Mobile/Mobile
+      Standard Dialogue UI.prefab
+    Data: {fileID: 191644, guid: ec86157352090354fba5ec5ba5f2e9aa, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Sergeant Graves.prefab
+    Data: {fileID: 100070, guid: 5d271d9ea0c3c7c408e8785b0221d4ad, type: 3}
+  - Name: Assets/Resources/UI/Option.prefab
+    Data: {fileID: 3656614778502724503, guid: 5d48aad6f1191f34aacdd60f5c03db39, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Circle/Circle
+      Standard Dialogue UI.prefab
+    Data: {fileID: 159120, guid: adc24357fea057a4884a14c87b85b1cd, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Models/LightBeam.FBX
+    Data: {fileID: 100000, guid: cddaef8592c4e9d4c9cbfcbd75eb2936, type: 3}
+  - Name: Assets/Plugins/SaveSystem/Prefabs/AVGSaveSlot.prefab
+    Data: {fileID: 1068383326149564704, guid: fd287f4ec3f8fff4eac07bebf2afca5c, type: 3}
+  - Name: Assets/Plugins/SaveSystem/Prefabs/SaveBoard.prefab
+    Data: {fileID: 5925189700805676020, guid: 2e039879a7d01504c9f2e2942a70dfe2, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Terminal.prefab
+    Data: {fileID: 100000, guid: 3e88076cd0d6b594a8d8aa0daf9cfb2b, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Wheel/Wheel
+      Standard Quest Tracker HUD.prefab
+    Data: {fileID: 158168, guid: 1faea9b6a0e6e5544bcc70c3c4579717, type: 3}
+  - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Prefabs/Player.prefab
+    Data: {fileID: 100046, guid: 6f06dd98a5f62894a9f9c0ce7e700682, type: 3}

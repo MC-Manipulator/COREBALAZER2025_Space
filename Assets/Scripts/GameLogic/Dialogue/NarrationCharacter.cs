@@ -7,7 +7,7 @@ using UnityEngine;
 /// <summary>
 /// 对话角色相关，之后可拓展立绘等功能
 /// </summary>
-[CreateAssetMenu(menuName = "Scriptable Objects/Dialogue/NarrationCharacter")]
+[CreateAssetMenu(menuName = "Dialogue/NarrationCharacter")]
 public class NarrationCharacter : SerializedScriptableObject
 {
     public string characterName;

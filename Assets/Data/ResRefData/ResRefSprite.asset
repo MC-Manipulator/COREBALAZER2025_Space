@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc718a00db0dba49b01189d33c94ddc, type: 3}
   m_Name: ResRefSprite
   m_EditorClassIdentifier: 
-  Filters: []
   ResRefs:
   - Name: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_normal.png
     Data: {fileID: 21300000, guid: 2048119537defaa45a5f7ef29ff78275, type: 3}

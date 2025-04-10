@@ -9,7 +9,7 @@ using UnityEngine;
 /// <summary>
 /// 选项对话节点，还未具体实现
 /// </summary>
-[CreateAssetMenu(menuName = "Scriptable Objects/Narration/Dialogue/Node/Choice")]
+[CreateAssetMenu(menuName = "Dialogue/Node/Choice")]
 public class ChoiceDialogueNode : DialogueNode
 {
     [ShowInInspector] public DialogueChoice[] choices;
@@ -35,9 +35,8 @@ public class ChoiceDialogueNode : DialogueNode
 [ShowInInspector]
 public class DialogueChoice
 {
-
     [ShowInInspector] public List<Condition> conditions = new List<Condition>();
-    public Dictionary<string, Stat> dic;
+    public StatValuePair[] statValuePairs;
     public DialogueChoice(string _choicePreview,int _nextNodeIndex)
     {
         choicePreview = _choicePreview;

@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +18,8 @@ public class DialoguePanel : MonoBehaviour, DialogueNodeVisitor
     private bool isPrinting = false;
     private Tweener textTween;
     public Transform m_ChoicesBoxTransform;
+    private delegate void OnDialogueNodeEnd();
+    private event OnDialogueNodeEnd DoChoice;
 
     private void Awake()
     {
@@ -43,18 +46,69 @@ public class DialoguePanel : MonoBehaviour, DialogueNodeVisitor
 
     public void Visit(ChoiceDialogueNode node)
     {
-        m_ChoicesBoxTransform.gameObject.SetActive(true);
-
-        foreach (DialogueChoice choice in node.choices)
+        m_text.text = "";
+        isPrinting = true;
+        illustration.sprite = node.m_sprite;
+        textTween = m_text.DOText(node.m_text, charDelay * node.m_text.Length)
+        .OnComplete(() =>
         {
-            if(!choice.IsMetConditions()) continue;
-            ResMgr.GetInstance().LoadAsync<GameObject>("UI/Option", (obj) =>
+            isPrinting = false;
+        });
+        nameOfCharacter.text = node.speaker.characterName;
+
+        DoChoice = () =>
+        {
+            m_ChoicesBoxTransform.gameObject.SetActive(true);
+
+            foreach (DialogueChoice choice in node.choices)
             {
-                UIDialogueChoiceController newChoice = obj.GetComponent<UIDialogueChoiceController>();
-                newChoice.Initialization(choice.nextNodeIndex, choice.choicePreview,choice.dic);
-                obj.transform.SetParent(m_ChoicesBoxTransform);
-            });
-        }
+                if (!choice.IsMetConditions()) continue;
+                ResMgr.GetInstance().LoadAsync<GameObject>("UI/Option", (obj) =>
+                {
+                    UIDialogueChoiceController newChoice = obj.GetComponent<UIDialogueChoiceController>();
+                    newChoice.Initialization(choice.nextNodeIndex, choice.choicePreview, choice.statValuePairs);
+                    obj.transform.SetParent(m_ChoicesBoxTransform);
+                });
+            }
+            DoChoice = null;
+        };
+    }
+
+    public void Visit(BranchDialogueNode node)
+    {
+        m_text.text = "";
+        isPrinting = true;
+        illustration.sprite = node.m_sprite;
+        textTween = m_text.DOText(node.m_text, charDelay * node.m_text.Length)
+        .OnComplete(() => {
+            isPrinting = false;
+        });
+        nameOfCharacter.text = node.speaker.characterName;
+
+        DoChoice = () =>
+        {
+            for (int i = 0; i < node.branchs.Length; i++)
+            {
+                if (i < node.branchs.Length - 1)
+                {
+                    if (!node.branchs[i].IsMetConditions()) continue;
+                }
+                EventCenter.GetInstance().EventTrigger<int>("对话节点请求带参", node.branchs[i].nextNodeIndex);
+                if (node.branchs[i].statValuePairs != null)
+                {
+                    if (node.branchs[i].statValuePairs.Length > 0)
+                    {
+                        foreach (StatValuePair statValuePair in node.branchs[i].statValuePairs)
+                        {
+                            statValuePair.ApplyValueToStat();
+                        }
+                    }
+                }
+                Debug.Log(i + "分支被进入");
+                break;
+            }
+            DoChoice = null;
+        };
     }
 
     public void NextNode()
@@ -65,7 +119,8 @@ public class DialoguePanel : MonoBehaviour, DialogueNodeVisitor
         }
         else
         {
-            EventCenter.GetInstance().EventTrigger("对话节点请求");
+            if (DoChoice != null) DoChoice.Invoke();
+            else EventCenter.GetInstance().EventTrigger("对话节点请求");
         }
     }
 

@@ -7,7 +7,7 @@ using UnityEngine;
 /// <summary>
 /// 一整套对话，包含多个对话节点
 /// </summary>
-[CreateAssetMenu(menuName = "Scriptable Objects/Dialogue/Dialogue")]
+[CreateAssetMenu(menuName = "Dialogue/DialogueSO")]
 public class DialogueSO : SerializedScriptableObject
 {
     [SerializeField]
