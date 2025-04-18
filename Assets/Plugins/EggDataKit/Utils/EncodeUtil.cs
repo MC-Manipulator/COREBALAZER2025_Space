@@ -24,7 +24,7 @@ namespace EggFramework.Util
                 if (DirectoryUtil.ExtractName(file) == "GBKtoUTF8")
                 {
                     // 1. 使用完整路径调用 Python
-                    string pythonPath = "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"; // 或指定绝对路径如 @"C:\Python39\python.exe"
+                    string pythonPath = "C:\\Users\\Jimmy\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"; // 或指定绝对路径如 @"C:\Python39\python.exe"
                     string scriptPath = Path.Combine(Directory.GetCurrentDirectory(), file);
                     string targetDir = Path.Combine(Directory.GetCurrentDirectory(), "Assets/Excel/Text");
 
