@@ -30,7 +30,7 @@ public class DialogueDataLoader : SerializedMonoBehaviour
             return;
         }
 
-        //listeners.Clear();
+        listeners.Clear();
 
         Debug.Log($"开始从文件夹 {targetFolderPath} 收集 ScriptableObjects...");
 
@@ -99,6 +99,7 @@ public class DialogueDataLoader : SerializedMonoBehaviour
             {
                 ChoiceDialogueNode dialogueNode = ScriptableObject.CreateInstance<ChoiceDialogueNode>();
                 dialogueNode = new ChoiceDialogueNode(text.text, narrationCharacter, illustration);
+                Debug.Log(text.text);
                 dialogueNode.choices = new DialogueChoice[text.nextNodeIndex.Count];
                 for (int i = 0; i < text.nextNodeIndex.Count; i++)
                 {
@@ -125,22 +126,35 @@ public class DialogueDataLoader : SerializedMonoBehaviour
             }
             else
             {
+                Debug.Log("111");
                 BasicDialogueNode dialogueNode = ScriptableObject.CreateInstance<BasicDialogueNode>();
                 dialogueNode = new BasicDialogueNode(text.text, narrationCharacter, illustration);
-                if(text.nextNodeIndex.Count > 0)
+                if(text.nextNodeIndex != null)
                 {
-                    if (text.nextNodeIndex[0] == 0)
+                    Debug.Log("nextNodeIndex不为空");
+                    if (text.nextNodeIndex.Count > 0)
                     {
-                        dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
+                        Debug.Log("nextNodeIndex长度不为0");
+                        if (text.nextNodeIndex[0] == 0)
+                        {
+                            dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
+                            Debug.Log(dialogue.nodes.Count + 1);
+                        }
+                        else
+                        {
+                            dialogueNode.nextNodeIndex = text.nextNodeIndex[0];
+                        }
                     }
                     else
                     {
-                        dialogueNode.nextNodeIndex = text.nextNodeIndex[0];
+                        dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
                     }
                 }
+
                 else
                 {
                     dialogueNode.nextNodeIndex = dialogue.nodes.Count + 1;
+                    Debug.Log(dialogue.nodes.Count + 1);
                 }
                 dialogueNode.name = dialogueNode.m_text;
                 dialogue.nodes.Add(dialogueNode);

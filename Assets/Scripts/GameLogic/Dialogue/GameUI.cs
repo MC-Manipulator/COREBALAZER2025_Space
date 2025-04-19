@@ -9,6 +9,7 @@ public class GameUI : MonoBehaviour
     {
         EventCenter.GetInstance().AddEventListener<DialogueSO>("对话开始", OnDialogueStart);
         EventCenter.GetInstance().AddEventListener<DialogueSO>("对话结束", OnDialogueEnd);
+        EventCenter.GetInstance().AddEventListener("开启背包", OpenBackpackPanel);
     }
 
     private void OnDialogueStart(DialogueSO dialogue) 
@@ -19,6 +20,12 @@ public class GameUI : MonoBehaviour
         isDialoging = true;
     }
 
+    public void OpenBackpackPanel()
+    {
+        GameObject backpackPanel = ResMgr.GetInstance().Load<GameObject>("UI/BackpackPanel");
+        backpackPanel.transform.SetParent(transform, false);
+    }
+
     private void OnDialogueEnd(DialogueSO dialogue)
     {
         isDialoging = false;
@@ -27,5 +34,6 @@ public class GameUI : MonoBehaviour
     {
         EventCenter.GetInstance().RemoveEventListener<DialogueSO>("对话开始", OnDialogueStart);
         EventCenter.GetInstance().RemoveEventListener<DialogueSO>("对话结束", OnDialogueEnd);
+        EventCenter.GetInstance().RemoveEventListener("开启背包", OpenBackpackPanel);
     }
 }

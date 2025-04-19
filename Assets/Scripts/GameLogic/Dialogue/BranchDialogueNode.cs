@@ -27,7 +27,7 @@ public class BranchDialogueNode : DialogueNode
 
 public class DialogueBranch
 {
-    [ShowInInspector] public List<Condition> conditions = new List<Condition>();
+    [ShowInInspector] public List<BranchCondition> conditions = new List<BranchCondition>();
     public StatValuePair[] statValuePairs;
     public DialogueBranch(int _nextNodeIndex)
     {
@@ -38,7 +38,7 @@ public class DialogueBranch
 
     public bool IsMetConditions()
     {
-        foreach (Condition condition in conditions)
+        foreach (BranchCondition condition in conditions)
         {
             if (!condition.IsConditionTrue()) return false;
         }

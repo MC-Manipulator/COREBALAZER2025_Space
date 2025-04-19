@@ -63,6 +63,7 @@ public class DialogueSequencer
             EndDialogue(m_CurrentDialogue);
             return;
         }
+        Debug.Log("对话节点请求带参" + nextNodeIndex);
         DialogueNode node = m_CurrentDialogue.nodes[nextNodeIndex];
         StopDialogueNode(m_CurrentNode);
 
@@ -80,6 +81,7 @@ public class DialogueSequencer
                 return;
             }
         }
+        Debug.Log("对话节点请求");
         DialogueNode node;
         if (m_CurrentNode == null) node = m_CurrentDialogue.nodes[0];
         else node = m_CurrentDialogue.nodes[m_CurrentNode.nextNodeIndex];

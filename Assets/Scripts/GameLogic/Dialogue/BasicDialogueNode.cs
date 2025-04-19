@@ -9,6 +9,7 @@ using UnityEngine;
 public class BasicDialogueNode : DialogueNode
 {
     //public Dictionary<string, Stat> dic;
+    public ShowCondituon showCondituon;
     public StatValuePair[] statValuePairs;
 
     public BasicDialogueNode(string _text, NarrationCharacter _speaker,Sprite _sprite)

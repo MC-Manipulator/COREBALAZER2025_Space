@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 31b3848e90a61cf4fa92dbe9ced8de44
   m_SerializeEntries:
-  - m_GUID: 2805d69f74bf3a64fb1d19a613addc5f
-    m_Address: TestExcelSO
+  - m_GUID: 18f4b3155645f0f4282b1bc7276aa9e4
+    m_Address: part1_conversation_A_B_firstdialogueSO
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

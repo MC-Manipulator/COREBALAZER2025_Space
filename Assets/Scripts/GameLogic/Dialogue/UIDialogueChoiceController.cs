@@ -41,6 +41,6 @@ public class UIDialogueChoiceController : MonoBehaviour
                 }
             }
         }
-        Destroy(transform.parent.gameObject);
+        transform.parent.gameObject.SetActive(false);
     }
 }

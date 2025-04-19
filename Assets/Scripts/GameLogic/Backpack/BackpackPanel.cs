@@ -18,6 +18,7 @@ public class BackpackPanel : MonoBehaviour
 
     public ItemSO selectedItem;
     public ItemSO currentSelectedItem;
+    public NarrationCharacter character;
 
     public delegate void UseItemAction(ItemType id);
     public delegate void OfferItemAction(ItemType id);
@@ -76,6 +77,7 @@ public class BackpackPanel : MonoBehaviour
         currentSelectedItem = item;
         selectedItem = item;
         ShowItemDetail(item);
+
     }
 
     public void OfferItem()
@@ -85,7 +87,9 @@ public class BackpackPanel : MonoBehaviour
 
     public void UseItem()
     {
-        OnUseItem?.Invoke(selectedItem.itemName);
+        //OnUseItem?.Invoke(selectedItem.itemName);
+        EventCenter.GetInstance().EventTrigger<ItemSO>("出示道具", currentSelectedItem);
+        Destroy(gameObject);
     }
 
     public void AddItemButton(ItemSO _item)
