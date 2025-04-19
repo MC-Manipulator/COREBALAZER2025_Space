@@ -362,7 +362,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!1 &922028763284146565
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1084193663292614137}
   m_HandleRect: {fileID: 8958527683396373945}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.5
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1881,7 +1881,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.1
+  m_fontSize: 18
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3538,7 +3538,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5247486544828026473}
   m_HandleRect: {fileID: 1536895412926387595}
   m_Direction: 0
-  m_Value: 0
+  m_Value: -0.00014361007
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
