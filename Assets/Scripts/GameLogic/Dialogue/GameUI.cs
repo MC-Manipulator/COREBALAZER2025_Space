@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameUI : MonoBehaviour
 {
+    public GameObject taskPanel;
     private bool isDialoging = false;
     private void Awake()
     {
@@ -35,5 +36,15 @@ public class GameUI : MonoBehaviour
         EventCenter.GetInstance().RemoveEventListener<DialogueSO>("对话开始", OnDialogueStart);
         EventCenter.GetInstance().RemoveEventListener<DialogueSO>("对话结束", OnDialogueEnd);
         EventCenter.GetInstance().RemoveEventListener("开启背包", OpenBackpackPanel);
+    }
+
+    public void StartTask(string taskName)
+    {
+        TaskManager.GetInstance().StartTask(taskName);
+    }
+
+    public void OpenPanel()
+    {
+        taskPanel.SetActive(true);
     }
 }
